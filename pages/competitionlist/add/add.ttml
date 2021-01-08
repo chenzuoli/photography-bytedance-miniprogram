@@ -1,0 +1,70 @@
+<cu-custom bgColor="bg-gradual-pink" isBack="{{true}}">
+				<view slot="backText">返回</view>
+				<view slot="content">添加作品</view>
+</cu-custom>
+<scroll-view scroll-y="{{modalName==null}}" class="page {{modalName!=null?'show':''}}">
+  <view>
+    <view class="cu-list menu {{menuBorder?'sm-border':''}} {{menuCard?'card-menu margin-top':''}}">
+      <form bindsubmit="submit">
+        <view class="cu-form-group">
+                <view class="title">照片</view>
+                <!-- <view name='avatar' class="cu-avatar radius bg-gray">
+                        <image style="width:25px;height:25px" bindtap='ChooseImage' src="{{avatar}}" />
+                </view> -->
+        </view>
+        <view class="cu-form-group">
+          <view class="action">
+            <view class="action-photo">
+              <block tt:for="{{picUrls}}">
+                <image src="{{item}}">
+                  <icon type="cancel" size="18" color="red" bindtap="delPhoto" data-index="{{index}}" />
+                </image>
+              </block>
+              <text class="add" bindtap="clickPhoto">{{actionText}}</text>
+            </view>
+          </view>
+        </view>
+        <view class="cu-form-group margin-top">
+                <view class="title">宠物昵称</view>
+                <input placeholder="给宠物取个可爱的名字吧" name='nick_name'></input>
+        </view>
+        <!-- <view class="cu-form-group">
+                <view class="title">宠物类型、品种</view>
+                <picker name='type_variety' mode="multiSelector" bindchange="MultiChange" bindcolumnchange="MultiColumnChange" value="{{multiIndex}}" range="{{multiArray}}">
+                        <view class="picker">
+                                {{multiArray[0][multiIndex[0]]}}，{{multiArray[1][multiIndex[1]]}}
+                        </view>
+                </picker>
+        </view> -->
+        <!-- <view class="cu-form-group">
+                <view class="title">宠物性别</view>
+                <switch name='gender' class="switch-sex" checked="{{true}}"></switch>
+        </view> -->
+        <!-- <view class="cu-form-group">
+                <view class="title">宠物出生日期</view>
+                <picker name='birthday' mode="date" value="{{date}}" start="1980-09-01" end="{{now}}" bindchange="DateChange">
+                        <view class="picker">{{date}}</view>
+                </picker>
+        </view> -->
+        <view class="cu-form-group">
+                <view class="title">手机号</view>
+                <input placeholder="有什么问题可以及时联系你" name='contact'></input>
+                <view class="cu-capsule radius">
+                        <view class="cu-tag bg-blue">+86</view>
+                        <view class="cu-tag line-blue">中国大陆</view>
+                </view>
+        </view>
+        <!-- <view class="cu-form-group margin-top">
+                <view class="title">照片主题</view>
+                <input placeholder="描述一下作品主题吧" name='description'></input>
+        </view> -->
+        <view class="cu-form-group margin-top">
+          <textarea maxlength="-1" disabled="{{modalName!=null}}" bindinput="changeDesc" placeholder="描述一下作品主题吧"></textarea>
+        </view>
+        <view class="cu-form-group">
+          <button class="btnSubmit" form-type="submit">添  加</button>
+        </view>
+      </form>
+    </view>
+  </view>
+</scroll-view>

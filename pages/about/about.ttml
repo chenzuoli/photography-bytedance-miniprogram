@@ -1,0 +1,46 @@
+<!--pages/about/about.ttml-->
+<cu-custom bgColor="bg-gradual-pink" isBack="{{false}}">
+  <!-- <view slot="backText">返回</view> -->
+  <view slot="content">用户中心</view>
+</cu-custom>
+<scroll-view scroll-y="{{modalName==null}}" class="page {{modalName!=null?'show':''}}">
+  <view class="cu-list menu card-menu margin-top-xl margin-bottom-xl shadow-lg radius">
+    <view class="cu-item {{menuArrow?'arrow':''}}">
+      <view class="content">
+        <text class="cuIcon-people text-grey"></text>
+        <text class="text-grey" bindtap="update_user_info">个人信息</text>
+      </view>
+    </view>
+    <view class="cu-item {{menuArrow?'arrow':''}}">
+      <view class="content">
+        <text class="cuIcon-emoji text-grey"></text>
+        <text class="text-grey" bindtap='update_pet_info'>宠物信息</text>
+      </view>
+    </view>
+    <view class="cu-item {{menuArrow?'arrow':''}}">
+      <button class="cu-btn content" open-type="contact">
+        <text class="cuIcon-service text-grey"></text>
+        <text class="text-grey">联系客服</text>
+      </button>
+    </view>
+    <view class="cu-item {{menuArrow?'arrow':''}}">
+      <button class="cu-btn content" open-type="feedback">
+        <text class="cuIcon-writefill text-grey"></text>
+        <text class="text-grey">意见反馈</text>
+      </button>
+    </view>
+    <view class="cu-item {{menuArrow?'arrow':''}}">
+      <view class="content">
+        <text class="cuIcon-right text-grey"></text>
+        <text class="text-grey" bindtap='service_protocol'>服务条款</text>
+      </view>
+    </view>
+    <view class="cu-item {{menuArrow?'arrow':''}}">
+      <view class="content">
+        <text class="cuIcon-right text-grey"></text>
+        <text class="text-grey" bindtap='private_protocol'>隐私协议</text>
+      </view>
+    </view>
+  </view>
+  <view class="cu-tabbar-height"></view>
+</scroll-view>

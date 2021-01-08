@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "competitionlist": "/pages/competitionlist/competitionlist",
+    "photographer": "/pages/photographer/photographer",
+    "about": "/pages/about/about"
+  }
+}

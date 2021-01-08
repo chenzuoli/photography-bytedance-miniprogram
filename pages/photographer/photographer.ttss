@@ -1,0 +1,55 @@
+/* pages/photographer/photographer.ttss */
+/* //重点在于阴影的设计 */
+.card {
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    background-color: #ffffff;
+    box-shadow: 4px 1px 1px #cccccc;
+    margin: 8px;
+    position: relative;
+}
+
+.image {
+    width: 100%;
+    height: 200px;
+    background-color: #eeeeee;
+    margin-top: 5px;
+}
+
+.add {
+    float: right;
+    position: fixed;
+    bottom: 120rpx;
+    right: 45rpx;
+    width: 80rpx;
+    height: 80rpx;
+}
+
+.nick_name {
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+    color: #ffffff;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+    font-size: 12px;
+}
+
+.subject_first {
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.subject_follow {
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+.blank {
+    text-align: center;
+    margin-top: 20rpx;
+    background-color: white;
+    height: 100rpx;
+    line-height: 100rpx;
+}

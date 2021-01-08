@@ -1,0 +1,53 @@
+<cu-custom bgColor="bg-gradual-pink" isBack="{{true}}">
+	<view slot="backText">返回</view>
+	<view slot="content">个人信息</view>
+</cu-custom>
+<scroll-view scroll-y="{{modalName==null}}" class="page {{modalName!=null?'show':''}}">
+	<view class="cu-list menu {{menuBorder?'sm-border':''}} {{menuCard?'card-menu margin-top':''}}">
+		<form bindsubmit="submit">
+			<view class="cu-form-group margin-top">
+				<view class="title" bindtap="login">{{login_status}}</view>
+			</view>
+			<view class="cu-form-group">
+				<view class="title" bindtap="login">昵称</view>
+				<input name='nick_name' placeholder="{{nick_name}}"></input>
+			</view>
+			<view class="cu-form-group">
+				<view class="title">更换头像</view>
+				<view class="cu-avatar radius bg-gray">
+					<image style="width:25px;height:25px" bindtap='ChooseImage' src="{{avatar}}" />
+				</view>
+			</view>
+			<view class="cu-form-group">
+				<view class="title">性别</view>
+				<switch name='gender' class="switch-sex" checked="{{gender}}"></switch>
+			</view>
+			<view class="cu-form-group">
+				<view class="title">手机号码</view>
+				<input placeholder="{{phone}}" name='phone'></input>
+				<view class="cu-capsule radius">
+					<view class="cu-tag bg-blue">+86</view>
+					<view class="cu-tag line-blue">中国大陆</view>
+				</view>
+			</view>
+			<!-- <view class="cu-form-group">
+							<view class="title">验证码</view>
+							<input placeholder="点击获取" name='code'></input>
+							<button class="cu-btn bg-green shadow">获取验证码</button>
+			</view>
+			<view class="cu-form-group">
+							<view class="title">密码</view>
+							<input placeholder="如果不需要更换，则不填写" password="{{true}}" name='pwd'></input>
+			</view> -->
+			<view class="cu-form-group">
+				<view class="title">地址选择</view>
+				<picker name='region' mode="region" bindchange="RegionChange" value="{{region}}" custom-item="{{customItem}}">
+					<view class="picker">{{region[0]}}，{{region[1]}}，{{region[2]}}</view>
+				</picker>
+			</view>
+			<view class="cu-form-group">
+				<button class="btnSubmit" form-type="submit">更 改</button>
+			</view>
+		</form>
+	</view>
+</scroll-view>

@@ -1,0 +1,2897 @@
+{
+    "您需要额外关注的转化日志信息": {
+        "0": {
+            "time": "2021-01-06T14:41:37.503Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/image_cropper/image_cropper.js",
+            "row": 305,
+            "column": 8,
+            "before": "wx.canvasToTempFilePath",
+            "after": "tt.canvasToTempFilePath",
+            "message": "api: canvasToTempFilePath 字节跳动小程序暂不支持，仅更换前缀。请参考微信小程序文档完成适配：https://developers.weixin.qq.com/miniprogram/dev/api/canvas/wx.canvasToTempFilePath.html"
+        },
+        "1": {
+            "time": "2021-01-06T14:41:37.579Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/image_cropper/image_cropper.js",
+            "row": 844,
+            "column": 10,
+            "before": "wx.canvasToTempFilePath",
+            "after": "tt.canvasToTempFilePath",
+            "message": "api: canvasToTempFilePath 字节跳动小程序暂不支持，仅更换前缀。请参考微信小程序文档完成适配：https://developers.weixin.qq.com/miniprogram/dev/api/canvas/wx.canvasToTempFilePath.html"
+        },
+        "2": {
+            "time": "2021-01-06T14:41:39.035Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/wecropper/we-cropper.js",
+            "row": 365,
+            "column": 37,
+            "before": "wx.canvasToTempFilePath",
+            "after": "tt.canvasToTempFilePath",
+            "message": "api: canvasToTempFilePath 字节跳动小程序暂不支持，仅更换前缀。请参考微信小程序文档完成适配：https://developers.weixin.qq.com/miniprogram/dev/api/canvas/wx.canvasToTempFilePath.html"
+        },
+        "3": {
+            "time": "2021-01-06T14:41:39.042Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/wecropper/we-cropper.js",
+            "row": 566,
+            "column": 2,
+            "before": "wx.canvasGetImageData",
+            "after": "tt.canvasGetImageData",
+            "message": "api: canvasGetImageData 字节跳动小程序暂不支持，仅更换前缀。请参考微信小程序文档完成适配：https://developers.weixin.qq.com/miniprogram/dev/api/canvas/wx.canvasGetImageData.html"
+        },
+        "4": {
+            "time": "2021-01-06T14:41:39.150Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/wecropper/we-cropper.min.js",
+            "row": 6,
+            "column": 3471,
+            "before": "wx.canvasToTempFilePath",
+            "after": "tt.canvasToTempFilePath",
+            "message": "api: canvasToTempFilePath 字节跳动小程序暂不支持，仅更换前缀。请参考微信小程序文档完成适配：https://developers.weixin.qq.com/miniprogram/dev/api/canvas/wx.canvasToTempFilePath.html"
+        },
+        "5": {
+            "time": "2021-01-06T14:41:39.158Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/wecropper/we-cropper.min.js",
+            "row": 6,
+            "column": 5752,
+            "before": "wx.canvasGetImageData",
+            "after": "tt.canvasGetImageData",
+            "message": "api: canvasGetImageData 字节跳动小程序暂不支持，仅更换前缀。请参考微信小程序文档完成适配：https://developers.weixin.qq.com/miniprogram/dev/api/canvas/wx.canvasGetImageData.html"
+        }
+    },
+    "其他常规转化日志信息": {
+        "0": {
+            "time": "2021-01-06T14:41:40.787Z",
+            "type": "stdOut",
+            "message": "🎊    Congratulations, transform done! Please check transform log in"
+        },
+        "1": {
+            "time": "2021-01-06T14:41:40.794Z",
+            "type": "stdOut",
+            "message": "📝    /Users/chenzuoli/WeChatProjects/photography-bytedance/log.txt"
+        },
+        "2": {
+            "time": "2021-01-06T14:41:32.557Z",
+            "type": "transform wxss file suffix",
+            "file": "form/form.wxss",
+            "message": "转换了样式文件后缀, wxss ==> ttss"
+        },
+        "3": {
+            "time": "2021-01-06T14:41:32.565Z",
+            "type": "transform wxml file suffix",
+            "file": "modal/modal.wxml",
+            "message": "转换了视图文件后缀, wxml ==> ttml"
+        },
+        "4": {
+            "time": "2021-01-06T14:41:32.570Z",
+            "type": "transform wxss file suffix",
+            "file": "modal/modal.wxss",
+            "message": "转换了样式文件后缀, wxss ==> ttss"
+        },
+        "5": {
+            "time": "2021-01-06T14:41:32.576Z",
+            "type": "transform wxss file suffix",
+            "file": "animation.wxss",
+            "message": "转换了样式文件后缀, wxss ==> ttss"
+        },
+        "6": {
+            "time": "2021-01-06T14:41:32.581Z",
+            "type": "transform wxml file suffix",
+            "file": "components/cu-custom.wxml",
+            "message": "转换了视图文件后缀, wxml ==> ttml"
+        },
+        "7": {
+            "time": "2021-01-06T14:41:32.586Z",
+            "type": "transform wxss file suffix",
+            "file": "components/cu-custom.wxss",
+            "message": "转换了样式文件后缀, wxss ==> ttss"
+        },
+        "8": {
+            "time": "2021-01-06T14:41:32.589Z",
+            "type": "transform wxss file suffix",
+            "file": "icon.wxss",
+            "message": "转换了样式文件后缀, wxss ==> ttss"
+        },
+        "9": {
+            "time": "2021-01-06T14:41:32.593Z",
+            "type": "transform wxss file suffix",
+            "file": "main.wxss",
+            "message": "转换了样式文件后缀, wxss ==> ttss"
+        },
+        "10": {
+            "time": "2021-01-06T14:41:32.815Z",
+            "type": "transform wxml file suffix",
+            "file": "about/about.wxml",
+            "message": "转换了视图文件后缀, wxml ==> ttml"
+        },
+        "11": {
+            "time": "2021-01-06T14:41:32.819Z",
+            "type": "transform wxss file suffix",
+            "file": "about/about.wxss",
+            "message": "转换了样式文件后缀, wxss ==> ttss"
+        },
+        "12": {
+            "time": "2021-01-06T14:41:32.828Z",
+            "type": "transform wxml file suffix",
+            "file": "competitionlist/add/add.wxml",
+            "message": "转换了视图文件后缀, wxml ==> ttml"
+        },
+        "13": {
+            "time": "2021-01-06T14:41:32.837Z",
+            "type": "transform wxss file suffix",
+            "file": "competitionlist/add/add.wxss",
+            "message": "转换了样式文件后缀, wxss ==> ttss"
+        },
+        "14": {
+            "time": "2021-01-06T14:41:32.852Z",
+            "type": "transform wxml file suffix",
+            "file": "competitionlist/competitionlist.wxml",
+            "message": "转换了视图文件后缀, wxml ==> ttml"
+        },
+        "15": {
+            "time": "2021-01-06T14:41:32.867Z",
+            "type": "transform wxss file suffix",
+            "file": "competitionlist/competitionlist.wxss",
+            "message": "转换了样式文件后缀, wxss ==> ttss"
+        },
+        "16": {
+            "time": "2021-01-06T14:41:32.882Z",
+            "type": "transform wxml file suffix",
+            "file": "competitionlist/info/info.wxml",
+            "message": "转换了视图文件后缀, wxml ==> ttml"
+        },
+        "17": {
+            "time": "2021-01-06T14:41:32.900Z",
+            "type": "transform wxss file suffix",
+            "file": "competitionlist/info/info.wxss",
+            "message": "转换了样式文件后缀, wxss ==> ttss"
+        },
+        "18": {
+            "time": "2021-01-06T14:41:32.910Z",
+            "type": "transform wxml file suffix",
+            "file": "image_cropper/image_cropper.wxml",
+            "message": "转换了视图文件后缀, wxml ==> ttml"
+        },
+        "19": {
+            "time": "2021-01-06T14:41:32.936Z",
+            "type": "transform wxss file suffix",
+            "file": "image_cropper/image_cropper.wxss",
+            "message": "转换了样式文件后缀, wxss ==> ttss"
+        },
+        "20": {
+            "time": "2021-01-06T14:41:32.983Z",
+            "type": "transform wxml file suffix",
+            "file": "index/index.wxml",
+            "message": "转换了视图文件后缀, wxml ==> ttml"
+        },
+        "21": {
+            "time": "2021-01-06T14:41:32.991Z",
+            "type": "transform wxss file suffix",
+            "file": "index/index.wxss",
+            "message": "转换了样式文件后缀, wxss ==> ttss"
+        },
+        "22": {
+            "time": "2021-01-06T14:41:33.020Z",
+            "type": "transform wxml file suffix",
+            "file": "login/login.wxml",
+            "message": "转换了视图文件后缀, wxml ==> ttml"
+        },
+        "23": {
+            "time": "2021-01-06T14:41:33.029Z",
+            "type": "transform wxss file suffix",
+            "file": "login/login.wxss",
+            "message": "转换了样式文件后缀, wxss ==> ttss"
+        },
+        "24": {
+            "time": "2021-01-06T14:41:33.036Z",
+            "type": "transform wxml file suffix",
+            "file": "pet_index/info/index.wxml",
+            "message": "转换了视图文件后缀, wxml ==> ttml"
+        },
+        "25": {
+            "time": "2021-01-06T14:41:33.051Z",
+            "type": "transform wxss file suffix",
+            "file": "pet_index/info/index.wxss",
+            "message": "转换了样式文件后缀, wxss ==> ttss"
+        },
+        "26": {
+            "time": "2021-01-06T14:41:33.059Z",
+            "type": "transform wxml file suffix",
+            "file": "pet_index/pet_add/pet_add.wxml",
+            "message": "转换了视图文件后缀, wxml ==> ttml"
+        },
+        "27": {
+            "time": "2021-01-06T14:41:33.066Z",
+            "type": "transform wxss file suffix",
+            "file": "pet_index/pet_add/pet_add.wxss",
+            "message": "转换了样式文件后缀, wxss ==> ttss"
+        },
+        "28": {
+            "time": "2021-01-06T14:41:33.099Z",
+            "type": "transform wxml file suffix",
+            "file": "pet_index/pet_list/pet_list.wxml",
+            "message": "转换了视图文件后缀, wxml ==> ttml"
+        },
+        "29": {
+            "time": "2021-01-06T14:41:33.123Z",
+            "type": "transform wxss file suffix",
+            "file": "pet_index/pet_list/pet_list.wxss",
+            "message": "转换了样式文件后缀, wxss ==> ttss"
+        },
+        "30": {
+            "time": "2021-01-06T14:41:33.134Z",
+            "type": "transform wxml file suffix",
+            "file": "photographer/photographer.wxml",
+            "message": "转换了视图文件后缀, wxml ==> ttml"
+        },
+        "31": {
+            "time": "2021-01-06T14:41:33.140Z",
+            "type": "transform wxss file suffix",
+            "file": "photographer/photographer.wxss",
+            "message": "转换了样式文件后缀, wxss ==> ttss"
+        },
+        "32": {
+            "time": "2021-01-06T14:41:33.153Z",
+            "type": "transform wxml file suffix",
+            "file": "photography/add.wxml",
+            "message": "转换了视图文件后缀, wxml ==> ttml"
+        },
+        "33": {
+            "time": "2021-01-06T14:41:33.162Z",
+            "type": "transform wxss file suffix",
+            "file": "photography/add.wxss",
+            "message": "转换了样式文件后缀, wxss ==> ttss"
+        },
+        "34": {
+            "time": "2021-01-06T14:41:33.171Z",
+            "type": "transform wxml file suffix",
+            "file": "photography/index.wxml",
+            "message": "转换了视图文件后缀, wxml ==> ttml"
+        },
+        "35": {
+            "time": "2021-01-06T14:41:33.186Z",
+            "type": "transform wxss file suffix",
+            "file": "photography/index.wxss",
+            "message": "转换了样式文件后缀, wxss ==> ttss"
+        },
+        "36": {
+            "time": "2021-01-06T14:41:33.193Z",
+            "type": "transform wxml file suffix",
+            "file": "photography/photography.wxml",
+            "message": "转换了视图文件后缀, wxml ==> ttml"
+        },
+        "37": {
+            "time": "2021-01-06T14:41:33.200Z",
+            "type": "transform wxss file suffix",
+            "file": "photography/photography.wxss",
+            "message": "转换了样式文件后缀, wxss ==> ttss"
+        },
+        "38": {
+            "time": "2021-01-06T14:41:33.211Z",
+            "type": "transform wxml file suffix",
+            "file": "photolist/photolist.wxml",
+            "message": "转换了视图文件后缀, wxml ==> ttml"
+        },
+        "39": {
+            "time": "2021-01-06T14:41:33.224Z",
+            "type": "transform wxss file suffix",
+            "file": "photolist/photolist.wxss",
+            "message": "转换了样式文件后缀, wxss ==> ttss"
+        },
+        "40": {
+            "time": "2021-01-06T14:41:33.229Z",
+            "type": "transform wxml file suffix",
+            "file": "protocol/protocol.wxml",
+            "message": "转换了视图文件后缀, wxml ==> ttml"
+        },
+        "41": {
+            "time": "2021-01-06T14:41:33.235Z",
+            "type": "transform wxss file suffix",
+            "file": "protocol/protocol.wxss",
+            "message": "转换了样式文件后缀, wxss ==> ttss"
+        },
+        "42": {
+            "time": "2021-01-06T14:41:33.242Z",
+            "type": "transform wxml file suffix",
+            "file": "register/register.wxml",
+            "message": "转换了视图文件后缀, wxml ==> ttml"
+        },
+        "43": {
+            "time": "2021-01-06T14:41:33.249Z",
+            "type": "transform wxss file suffix",
+            "file": "register/register.wxss",
+            "message": "转换了样式文件后缀, wxss ==> ttss"
+        },
+        "44": {
+            "time": "2021-01-06T14:41:33.257Z",
+            "type": "transform wxml file suffix",
+            "file": "userInfo/userInfo.wxml",
+            "message": "转换了视图文件后缀, wxml ==> ttml"
+        },
+        "45": {
+            "time": "2021-01-06T14:41:33.265Z",
+            "type": "transform wxss file suffix",
+            "file": "userInfo/userInfo.wxss",
+            "message": "转换了样式文件后缀, wxss ==> ttss"
+        },
+        "46": {
+            "time": "2021-01-06T14:41:33.274Z",
+            "type": "transform wxml file suffix",
+            "file": "user_index/index/index.wxml",
+            "message": "转换了视图文件后缀, wxml ==> ttml"
+        },
+        "47": {
+            "time": "2021-01-06T14:41:33.282Z",
+            "type": "transform wxss file suffix",
+            "file": "user_index/index/index.wxss",
+            "message": "转换了样式文件后缀, wxss ==> ttss"
+        },
+        "48": {
+            "time": "2021-01-06T14:41:33.287Z",
+            "type": "transform wxml file suffix",
+            "file": "user_index/info/index.wxml",
+            "message": "转换了视图文件后缀, wxml ==> ttml"
+        },
+        "49": {
+            "time": "2021-01-06T14:41:33.291Z",
+            "type": "transform wxss file suffix",
+            "file": "user_index/info/index.wxss",
+            "message": "转换了样式文件后缀, wxss ==> ttss"
+        },
+        "50": {
+            "time": "2021-01-06T14:41:33.296Z",
+            "type": "transform wxml file suffix",
+            "file": "verify_phone_number/verify_phone_number.wxml",
+            "message": "转换了视图文件后缀, wxml ==> ttml"
+        },
+        "51": {
+            "time": "2021-01-06T14:41:33.301Z",
+            "type": "transform wxss file suffix",
+            "file": "verify_phone_number/verify_phone_number.wxss",
+            "message": "转换了样式文件后缀, wxss ==> ttss"
+        },
+        "52": {
+            "time": "2021-01-06T14:41:33.303Z",
+            "type": "transform wxml file suffix",
+            "file": "wecropper/we-cropper.wxml",
+            "message": "转换了视图文件后缀, wxml ==> ttml"
+        },
+        "53": {
+            "time": "2021-01-06T14:41:36.352Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/api/api.js",
+            "row": 4,
+            "column": 4,
+            "before": "wx.request",
+            "after": "tt.request",
+            "message": "api: request 成功转化"
+        },
+        "54": {
+            "time": "2021-01-06T14:41:36.363Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/api/api.js",
+            "row": 9,
+            "column": 17,
+            "before": "wx.getStorageSync",
+            "after": "tt.getStorageSync",
+            "message": "api: getStorageSync 成功转化"
+        },
+        "55": {
+            "time": "2021-01-06T14:41:36.372Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/api/api.js",
+            "row": 27,
+            "column": 4,
+            "before": "wx.request",
+            "after": "tt.request",
+            "message": "api: request 成功转化"
+        },
+        "56": {
+            "time": "2021-01-06T14:41:36.380Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/api/api.js",
+            "row": 33,
+            "column": 17,
+            "before": "wx.getStorageSync",
+            "after": "tt.getStorageSync",
+            "message": "api: getStorageSync 成功转化"
+        },
+        "57": {
+            "time": "2021-01-06T14:41:36.387Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/api/api.js",
+            "row": 50,
+            "column": 4,
+            "before": "wx.showLoading",
+            "after": "tt.showLoading",
+            "message": "api: showLoading 成功转化"
+        },
+        "58": {
+            "time": "2021-01-06T14:41:36.396Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/api/api.js",
+            "row": 67,
+            "column": 4,
+            "before": "wx.hideLoading",
+            "after": "tt.hideLoading",
+            "message": "api: hideLoading 成功转化"
+        },
+        "59": {
+            "time": "2021-01-06T14:41:36.460Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/app.js",
+            "row": 27,
+            "column": 15,
+            "before": "wx.getStorageSync",
+            "after": "tt.getStorageSync",
+            "message": "api: getStorageSync 成功转化"
+        },
+        "60": {
+            "time": "2021-01-06T14:41:36.466Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/app.js",
+            "row": 29,
+            "column": 4,
+            "before": "wx.setStorageSync",
+            "after": "tt.setStorageSync",
+            "message": "api: setStorageSync 成功转化"
+        },
+        "61": {
+            "time": "2021-01-06T14:41:36.474Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/app.js",
+            "row": 31,
+            "column": 4,
+            "before": "wx.getSystemInfo",
+            "after": "tt.getSystemInfo",
+            "message": "api: getSystemInfo 成功转化"
+        },
+        "62": {
+            "time": "2021-01-06T14:41:36.481Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/app.js",
+            "row": 34,
+            "column": 21,
+            "before": "wx.getMenuButtonBoundingClientRect",
+            "after": "tt.getMenuButtonBoundingClientRect",
+            "message": "api: getMenuButtonBoundingClientRect 成功转化"
+        },
+        "63": {
+            "time": "2021-01-06T14:41:36.489Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/app.js",
+            "row": 41,
+            "column": 4,
+            "before": "wx.login",
+            "after": "tt.login",
+            "message": "api: login 成功转化"
+        },
+        "64": {
+            "time": "2021-01-06T14:41:36.497Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/app.js",
+            "row": 45,
+            "column": 8,
+            "before": "wx.request",
+            "after": "tt.request",
+            "message": "api: request 成功转化"
+        },
+        "65": {
+            "time": "2021-01-06T14:41:36.508Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/app.js",
+            "row": 58,
+            "column": 12,
+            "before": "wx.removeStorageSync",
+            "after": "tt.removeStorageSync",
+            "message": "api: removeStorageSync 成功转化"
+        },
+        "66": {
+            "time": "2021-01-06T14:41:36.524Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/app.js",
+            "row": 60,
+            "column": 12,
+            "before": "wx.setStorageSync",
+            "after": "tt.setStorageSync",
+            "message": "api: setStorageSync 成功转化"
+        },
+        "67": {
+            "time": "2021-01-06T14:41:36.536Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/app.js",
+            "row": 61,
+            "column": 12,
+            "before": "wx.setStorageSync",
+            "after": "tt.setStorageSync",
+            "message": "api: setStorageSync 成功转化"
+        },
+        "68": {
+            "time": "2021-01-06T14:41:36.542Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/app.js",
+            "row": 71,
+            "column": 4,
+            "before": "wx.getSetting",
+            "after": "tt.getSetting",
+            "message": "api: getSetting 成功转化"
+        },
+        "69": {
+            "time": "2021-01-06T14:41:36.549Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/app.js",
+            "row": 75,
+            "column": 10,
+            "before": "wx.getUserInfo",
+            "after": "tt.getUserInfo",
+            "message": "api: getUserInfo 成功转化"
+        },
+        "70": {
+            "time": "2021-01-06T14:41:36.557Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/app.js",
+            "row": 97,
+            "column": 6,
+            "before": "wx.login",
+            "after": "tt.login",
+            "message": "api: login 成功转化"
+        },
+        "71": {
+            "time": "2021-01-06T14:41:36.563Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/app.js",
+            "row": 99,
+            "column": 10,
+            "before": "wx.getUserInfo",
+            "after": "tt.getUserInfo",
+            "message": "api: getUserInfo 成功转化"
+        },
+        "72": {
+            "time": "2021-01-06T14:41:36.571Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/app.js",
+            "row": 101,
+            "column": 14,
+            "before": "wx.setStorageSync",
+            "after": "tt.setStorageSync",
+            "message": "api: setStorageSync 成功转化"
+        },
+        "73": {
+            "time": "2021-01-06T14:41:36.579Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/app.js",
+            "row": 110,
+            "column": 25,
+            "before": "wx.chooseImage",
+            "after": "tt.chooseImage",
+            "message": "api: chooseImage 成功转化"
+        },
+        "74": {
+            "time": "2021-01-06T14:41:36.585Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/app.js",
+            "row": 111,
+            "column": 21,
+            "before": "wx.request",
+            "after": "tt.request",
+            "message": "api: request 成功转化"
+        },
+        "75": {
+            "time": "2021-01-06T14:41:36.591Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/app.js",
+            "row": 112,
+            "column": 25,
+            "before": "wx.getUserInfo",
+            "after": "tt.getUserInfo",
+            "message": "api: getUserInfo 成功转化"
+        },
+        "76": {
+            "time": "2021-01-06T14:41:36.628Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/colorui/components/cu-custom.js",
+            "row": 44,
+            "column": 6,
+            "before": "wx.navigateBack",
+            "after": "tt.navigateBack",
+            "message": "api: navigateBack 成功转化"
+        },
+        "77": {
+            "time": "2021-01-06T14:41:36.635Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/colorui/components/cu-custom.js",
+            "row": 49,
+            "column": 6,
+            "before": "wx.reLaunch",
+            "after": "tt.reLaunch",
+            "message": "api: reLaunch 成功转化"
+        },
+        "78": {
+            "time": "2021-01-06T14:41:36.686Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/components/form/form.js",
+            "row": 151,
+            "column": 4,
+            "before": "wx.chooseImage",
+            "after": "tt.chooseImage",
+            "message": "api: chooseImage 成功转化"
+        },
+        "79": {
+            "time": "2021-01-06T14:41:36.692Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/components/form/form.js",
+            "row": 169,
+            "column": 4,
+            "before": "wx.previewImage",
+            "after": "tt.previewImage",
+            "message": "api: previewImage 成功转化"
+        },
+        "80": {
+            "time": "2021-01-06T14:41:36.702Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/components/form/form.js",
+            "row": 175,
+            "column": 4,
+            "before": "wx.showModal",
+            "after": "tt.showModal",
+            "message": "api: showModal 成功转化"
+        },
+        "81": {
+            "time": "2021-01-06T14:41:36.778Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/about/about.js",
+            "row": 15,
+            "column": 4,
+            "before": "wx.showLoading",
+            "after": "tt.showLoading",
+            "message": "api: showLoading 成功转化"
+        },
+        "82": {
+            "time": "2021-01-06T14:41:36.786Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/about/about.js",
+            "row": 41,
+            "column": 4,
+            "before": "wx.hideLoading",
+            "after": "tt.hideLoading",
+            "message": "api: hideLoading 成功转化"
+        },
+        "83": {
+            "time": "2021-01-06T14:41:36.795Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/about/about.js",
+            "row": 54,
+            "column": 6,
+            "before": "wx.setClipboardData",
+            "after": "tt.setClipboardData",
+            "message": "api: setClipboardData 成功转化"
+        },
+        "84": {
+            "time": "2021-01-06T14:41:36.801Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/about/about.js",
+            "row": 57,
+            "column": 10,
+            "before": "wx.showToast",
+            "after": "tt.showToast",
+            "message": "api: showToast 成功转化"
+        },
+        "85": {
+            "time": "2021-01-06T14:41:36.810Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/about/about.js",
+            "row": 75,
+            "column": 6,
+            "before": "wx.previewImage",
+            "after": "tt.previewImage",
+            "message": "api: previewImage 成功转化"
+        },
+        "86": {
+            "time": "2021-01-06T14:41:36.816Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/about/about.js",
+            "row": 81,
+            "column": 6,
+            "before": "wx.navigateTo",
+            "after": "tt.navigateTo",
+            "message": "api: navigateTo 成功转化"
+        },
+        "87": {
+            "time": "2021-01-06T14:41:36.834Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/about/about.js",
+            "row": 94,
+            "column": 6,
+            "before": "wx.navigateTo",
+            "after": "tt.navigateTo",
+            "message": "api: navigateTo 成功转化"
+        },
+        "88": {
+            "time": "2021-01-06T14:41:36.840Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/about/about.js",
+            "row": 107,
+            "column": 6,
+            "before": "wx.navigateTo",
+            "after": "tt.navigateTo",
+            "message": "api: navigateTo 成功转化"
+        },
+        "89": {
+            "time": "2021-01-06T14:41:36.850Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/about/about.js",
+            "row": 120,
+            "column": 6,
+            "before": "wx.navigateTo",
+            "after": "tt.navigateTo",
+            "message": "api: navigateTo 成功转化"
+        },
+        "90": {
+            "time": "2021-01-06T14:41:36.962Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/competitionlist/add/add.js",
+            "row": 59,
+            "column": 4,
+            "before": "wx.chooseImage",
+            "after": "tt.chooseImage",
+            "message": "api: chooseImage 成功转化"
+        },
+        "91": {
+            "time": "2021-01-06T14:41:36.968Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/competitionlist/add/add.js",
+            "row": 80,
+            "column": 4,
+            "before": "wx.previewImage",
+            "after": "tt.previewImage",
+            "message": "api: previewImage 成功转化"
+        },
+        "92": {
+            "time": "2021-01-06T14:41:36.982Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/competitionlist/add/add.js",
+            "row": 86,
+            "column": 4,
+            "before": "wx.showModal",
+            "after": "tt.showModal",
+            "message": "api: showModal 成功转化"
+        },
+        "93": {
+            "time": "2021-01-06T14:41:37.047Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/competitionlist/add/add.js",
+            "row": 120,
+            "column": 6,
+            "before": "wx.showToast",
+            "after": "tt.showToast",
+            "message": "api: showToast 成功转化"
+        },
+        "94": {
+            "time": "2021-01-06T14:41:37.058Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/competitionlist/add/add.js",
+            "row": 129,
+            "column": 6,
+            "before": "wx.showToast",
+            "after": "tt.showToast",
+            "message": "api: showToast 成功转化"
+        },
+        "95": {
+            "time": "2021-01-06T14:41:37.086Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/competitionlist/add/add.js",
+            "row": 138,
+            "column": 6,
+            "before": "wx.showToast",
+            "after": "tt.showToast",
+            "message": "api: showToast 成功转化"
+        },
+        "96": {
+            "time": "2021-01-06T14:41:37.092Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/competitionlist/add/add.js",
+            "row": 147,
+            "column": 6,
+            "before": "wx.showToast",
+            "after": "tt.showToast",
+            "message": "api: showToast 成功转化"
+        },
+        "97": {
+            "time": "2021-01-06T14:41:37.099Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/competitionlist/add/add.js",
+            "row": 161,
+            "column": 4,
+            "before": "wx.navigateTo",
+            "after": "tt.navigateTo",
+            "message": "api: navigateTo 成功转化"
+        },
+        "98": {
+            "time": "2021-01-06T14:41:37.107Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/competitionlist/add/add.js",
+            "row": 168,
+            "column": 16,
+            "before": "wx.getStorageSync",
+            "after": "tt.getStorageSync",
+            "message": "api: getStorageSync 成功转化"
+        },
+        "99": {
+            "time": "2021-01-06T14:41:37.114Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/competitionlist/add/add.js",
+            "row": 174,
+            "column": 8,
+            "before": "wx.uploadFile",
+            "after": "tt.uploadFile",
+            "message": "api: uploadFile 成功转化"
+        },
+        "100": {
+            "time": "2021-01-06T14:41:37.122Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/competitionlist/add/add.js",
+            "row": 206,
+            "column": 16,
+            "before": "wx.getStorageSync",
+            "after": "tt.getStorageSync",
+            "message": "api: getStorageSync 成功转化"
+        },
+        "101": {
+            "time": "2021-01-06T14:41:37.130Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/competitionlist/add/add.js",
+            "row": 207,
+            "column": 18,
+            "before": "wx.getStorageSync",
+            "after": "tt.getStorageSync",
+            "message": "api: getStorageSync 成功转化"
+        },
+        "102": {
+            "time": "2021-01-06T14:41:37.137Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/competitionlist/add/add.js",
+            "row": 209,
+            "column": 4,
+            "before": "wx.request",
+            "after": "tt.request",
+            "message": "api: request 成功转化"
+        },
+        "103": {
+            "time": "2021-01-06T14:41:37.146Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/competitionlist/add/add.js",
+            "row": 229,
+            "column": 8,
+            "before": "wx.showToast",
+            "after": "tt.showToast",
+            "message": "api: showToast 成功转化"
+        },
+        "104": {
+            "time": "2021-01-06T14:41:37.153Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/competitionlist/add/add.js",
+            "row": 246,
+            "column": 4,
+            "before": "wx.chooseImage",
+            "after": "tt.chooseImage",
+            "message": "api: chooseImage 成功转化"
+        },
+        "105": {
+            "time": "2021-01-06T14:41:37.235Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/competitionlist/competitionlist.js",
+            "row": 80,
+            "column": 16,
+            "before": "wx.getStorageSync",
+            "after": "tt.getStorageSync",
+            "message": "api: getStorageSync 成功转化"
+        },
+        "106": {
+            "time": "2021-01-06T14:41:37.241Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/competitionlist/competitionlist.js",
+            "row": 81,
+            "column": 4,
+            "before": "wx.request",
+            "after": "tt.request",
+            "message": "api: request 成功转化"
+        },
+        "107": {
+            "time": "2021-01-06T14:41:37.247Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/competitionlist/competitionlist.js",
+            "row": 93,
+            "column": 8,
+            "before": "wx.showToast",
+            "after": "tt.showToast",
+            "message": "api: showToast 成功转化"
+        },
+        "108": {
+            "time": "2021-01-06T14:41:37.279Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/competitionlist/info/info.js",
+            "row": 18,
+            "column": 16,
+            "before": "wx.getStorageSync",
+            "after": "tt.getStorageSync",
+            "message": "api: getStorageSync 成功转化"
+        },
+        "109": {
+            "time": "2021-01-06T14:41:37.285Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/competitionlist/info/info.js",
+            "row": 22,
+            "column": 16,
+            "before": "wx.getStorageSync",
+            "after": "tt.getStorageSync",
+            "message": "api: getStorageSync 成功转化"
+        },
+        "110": {
+            "time": "2021-01-06T14:41:37.291Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/competitionlist/info/info.js",
+            "row": 25,
+            "column": 6,
+            "before": "wx.setStorageSync",
+            "after": "tt.setStorageSync",
+            "message": "api: setStorageSync 成功转化"
+        },
+        "111": {
+            "time": "2021-01-06T14:41:37.298Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/competitionlist/info/info.js",
+            "row": 28,
+            "column": 18,
+            "before": "wx.getStorageSync",
+            "after": "tt.getStorageSync",
+            "message": "api: getStorageSync 成功转化"
+        },
+        "112": {
+            "time": "2021-01-06T14:41:37.304Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/competitionlist/info/info.js",
+            "row": 31,
+            "column": 6,
+            "before": "wx.setStorageSync",
+            "after": "tt.setStorageSync",
+            "message": "api: setStorageSync 成功转化"
+        },
+        "113": {
+            "time": "2021-01-06T14:41:37.311Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/competitionlist/info/info.js",
+            "row": 38,
+            "column": 4,
+            "before": "wx.request",
+            "after": "tt.request",
+            "message": "api: request 成功转化"
+        },
+        "114": {
+            "time": "2021-01-06T14:41:37.318Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/competitionlist/info/info.js",
+            "row": 53,
+            "column": 10,
+            "before": "wx.showToast",
+            "after": "tt.showToast",
+            "message": "api: showToast 成功转化"
+        },
+        "115": {
+            "time": "2021-01-06T14:41:37.324Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/competitionlist/info/info.js",
+            "row": 66,
+            "column": 8,
+            "before": "wx.showToast",
+            "after": "tt.showToast",
+            "message": "api: showToast 成功转化"
+        },
+        "116": {
+            "time": "2021-01-06T14:41:37.331Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/competitionlist/info/info.js",
+            "row": 81,
+            "column": 16,
+            "before": "wx.getStorageSync",
+            "after": "tt.getStorageSync",
+            "message": "api: getStorageSync 成功转化"
+        },
+        "117": {
+            "time": "2021-01-06T14:41:37.337Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/competitionlist/info/info.js",
+            "row": 83,
+            "column": 6,
+            "before": "wx.navigateTo",
+            "after": "tt.navigateTo",
+            "message": "api: navigateTo 成功转化"
+        },
+        "118": {
+            "time": "2021-01-06T14:41:37.344Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/competitionlist/info/info.js",
+            "row": 88,
+            "column": 4,
+            "before": "wx.navigateTo",
+            "after": "tt.navigateTo",
+            "message": "api: navigateTo 成功转化"
+        },
+        "119": {
+            "time": "2021-01-06T14:41:37.465Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/image_cropper/image_cropper.js",
+            "row": 158,
+            "column": 10,
+            "before": "wx.getSystemInfoSync",
+            "after": "tt.getSystemInfoSync",
+            "message": "api: getSystemInfoSync 成功转化"
+        },
+        "120": {
+            "time": "2021-01-06T14:41:37.471Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/image_cropper/image_cropper.js",
+            "row": 179,
+            "column": 14,
+            "before": "wx.getSystemInfoSync",
+            "after": "tt.getSystemInfoSync",
+            "message": "api: getSystemInfoSync 成功转化"
+        },
+        "121": {
+            "time": "2021-01-06T14:41:37.477Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/image_cropper/image_cropper.js",
+            "row": 180,
+            "column": 15,
+            "before": "wx.getSystemInfoSync",
+            "after": "tt.getSystemInfoSync",
+            "message": "api: getSystemInfoSync 成功转化"
+        },
+        "122": {
+            "time": "2021-01-06T14:41:37.483Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/image_cropper/image_cropper.js",
+            "row": 257,
+            "column": 21,
+            "before": "wx.getSystemInfoSync",
+            "after": "tt.getSystemInfoSync",
+            "message": "api: getSystemInfoSync 成功转化"
+        },
+        "123": {
+            "time": "2021-01-06T14:41:37.490Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/image_cropper/image_cropper.js",
+            "row": 287,
+            "column": 6,
+            "before": "wx.chooseImage",
+            "after": "tt.chooseImage",
+            "message": "api: chooseImage 成功转化"
+        },
+        "124": {
+            "time": "2021-01-06T14:41:37.497Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/image_cropper/image_cropper.js",
+            "row": 294,
+            "column": 10,
+            "before": "wx.showLoading",
+            "after": "tt.showLoading",
+            "message": "api: showLoading 成功转化"
+        },
+        "125": {
+            "time": "2021-01-06T14:41:37.536Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/image_cropper/image_cropper.js",
+            "row": 456,
+            "column": 18,
+            "before": "wx.getSystemInfoSync",
+            "after": "tt.getSystemInfoSync",
+            "message": "api: getSystemInfoSync 成功转化"
+        },
+        "126": {
+            "time": "2021-01-06T14:41:37.542Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/image_cropper/image_cropper.js",
+            "row": 457,
+            "column": 19,
+            "before": "wx.getSystemInfoSync",
+            "after": "tt.getSystemInfoSync",
+            "message": "api: getSystemInfoSync 成功转化"
+        },
+        "127": {
+            "time": "2021-01-06T14:41:37.548Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/image_cropper/image_cropper.js",
+            "row": 475,
+            "column": 6,
+            "before": "wx.getImageInfo",
+            "after": "tt.getImageInfo",
+            "message": "api: getImageInfo 成功转化"
+        },
+        "128": {
+            "time": "2021-01-06T14:41:37.555Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/image_cropper/image_cropper.js",
+            "row": 531,
+            "column": 24,
+            "before": "wx.createCanvasContext",
+            "after": "tt.createCanvasContext",
+            "message": "api: createCanvasContext 成功转化"
+        },
+        "129": {
+            "time": "2021-01-06T14:41:37.671Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/login/login.js",
+            "row": 33,
+            "column": 4,
+            "before": "wx.login",
+            "after": "tt.login",
+            "message": "api: login 成功转化"
+        },
+        "130": {
+            "time": "2021-01-06T14:41:37.680Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/login/login.js",
+            "row": 35,
+            "column": 8,
+            "before": "wx.request",
+            "after": "tt.request",
+            "message": "api: request 成功转化"
+        },
+        "131": {
+            "time": "2021-01-06T14:41:37.688Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/login/login.js",
+            "row": 46,
+            "column": 12,
+            "before": "wx.showToast",
+            "after": "tt.showToast",
+            "message": "api: showToast 成功转化"
+        },
+        "132": {
+            "time": "2021-01-06T14:41:37.695Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/login/login.js",
+            "row": 51,
+            "column": 12,
+            "before": "wx.setStorageSync",
+            "after": "tt.setStorageSync",
+            "message": "api: setStorageSync 成功转化"
+        },
+        "133": {
+            "time": "2021-01-06T14:41:37.710Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/login/login.js",
+            "row": 55,
+            "column": 12,
+            "before": "wx.navigateBack",
+            "after": "tt.navigateBack",
+            "message": "api: navigateBack 成功转化"
+        },
+        "134": {
+            "time": "2021-01-06T14:41:37.718Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/login/login.js",
+            "row": 72,
+            "column": 12,
+            "before": "wx.showToast",
+            "after": "tt.showToast",
+            "message": "api: showToast 成功转化"
+        },
+        "135": {
+            "time": "2021-01-06T14:41:37.729Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/login/login.js",
+            "row": 81,
+            "column": 8,
+            "before": "wx.showToast",
+            "after": "tt.showToast",
+            "message": "api: showToast 成功转化"
+        },
+        "136": {
+            "time": "2021-01-06T14:41:37.738Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/login/login.js",
+            "row": 90,
+            "column": 4,
+            "before": "wx.getLocation",
+            "after": "tt.getLocation",
+            "message": "api: getLocation 成功转化"
+        },
+        "137": {
+            "time": "2021-01-06T14:41:37.746Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/login/login.js",
+            "row": 100,
+            "column": 4,
+            "before": "wx.navigateTo",
+            "after": "tt.navigateTo",
+            "message": "api: navigateTo 成功转化"
+        },
+        "138": {
+            "time": "2021-01-06T14:41:37.755Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/login/login.js",
+            "row": 125,
+            "column": 4,
+            "before": "wx.request",
+            "after": "tt.request",
+            "message": "api: request 成功转化"
+        },
+        "139": {
+            "time": "2021-01-06T14:41:37.764Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/login/login.js",
+            "row": 139,
+            "column": 10,
+            "before": "wx.showToast",
+            "after": "tt.showToast",
+            "message": "api: showToast 成功转化"
+        },
+        "140": {
+            "time": "2021-01-06T14:41:37.788Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/login/login.js",
+            "row": 144,
+            "column": 10,
+            "before": "wx.setStorageSync",
+            "after": "tt.setStorageSync",
+            "message": "api: setStorageSync 成功转化"
+        },
+        "141": {
+            "time": "2021-01-06T14:41:37.795Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/login/login.js",
+            "row": 145,
+            "column": 10,
+            "before": "wx.setStorageSync",
+            "after": "tt.setStorageSync",
+            "message": "api: setStorageSync 成功转化"
+        },
+        "142": {
+            "time": "2021-01-06T14:41:37.801Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/login/login.js",
+            "row": 146,
+            "column": 10,
+            "before": "wx.navigateTo",
+            "after": "tt.navigateTo",
+            "message": "api: navigateTo 成功转化"
+        },
+        "143": {
+            "time": "2021-01-06T14:41:37.806Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/login/login.js",
+            "row": 150,
+            "column": 10,
+            "before": "wx.showModal",
+            "after": "tt.showModal",
+            "message": "api: showModal 成功转化"
+        },
+        "144": {
+            "time": "2021-01-06T14:41:37.814Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/login/login.js",
+            "row": 158,
+            "column": 8,
+            "before": "wx.showToast",
+            "after": "tt.showToast",
+            "message": "api: showToast 成功转化"
+        },
+        "145": {
+            "time": "2021-01-06T14:41:37.867Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/pet_index/info/index.js",
+            "row": 41,
+            "column": 18,
+            "before": "wx.getStorageSync",
+            "after": "tt.getStorageSync",
+            "message": "api: getStorageSync 成功转化"
+        },
+        "146": {
+            "time": "2021-01-06T14:41:37.873Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/pet_index/info/index.js",
+            "row": 58,
+            "column": 16,
+            "before": "wx.getStorageSync",
+            "after": "tt.getStorageSync",
+            "message": "api: getStorageSync 成功转化"
+        },
+        "147": {
+            "time": "2021-01-06T14:41:37.881Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/pet_index/info/index.js",
+            "row": 60,
+            "column": 20,
+            "before": "wx.request",
+            "after": "tt.request",
+            "message": "api: request 成功转化"
+        },
+        "148": {
+            "time": "2021-01-06T14:41:37.890Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/pet_index/info/index.js",
+            "row": 92,
+            "column": 16,
+            "before": "wx.getStorageSync",
+            "after": "tt.getStorageSync",
+            "message": "api: getStorageSync 成功转化"
+        },
+        "149": {
+            "time": "2021-01-06T14:41:37.896Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/pet_index/info/index.js",
+            "row": 94,
+            "column": 6,
+            "before": "wx.request",
+            "after": "tt.request",
+            "message": "api: request 成功转化"
+        },
+        "150": {
+            "time": "2021-01-06T14:41:37.903Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/pet_index/info/index.js",
+            "row": 127,
+            "column": 16,
+            "before": "wx.getStorageSync",
+            "after": "tt.getStorageSync",
+            "message": "api: getStorageSync 成功转化"
+        },
+        "151": {
+            "time": "2021-01-06T14:41:37.909Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/pet_index/info/index.js",
+            "row": 129,
+            "column": 6,
+            "before": "wx.request",
+            "after": "tt.request",
+            "message": "api: request 成功转化"
+        },
+        "152": {
+            "time": "2021-01-06T14:41:37.918Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/pet_index/info/index.js",
+            "row": 245,
+            "column": 4,
+            "before": "wx.chooseImage",
+            "after": "tt.chooseImage",
+            "message": "api: chooseImage 成功转化"
+        },
+        "153": {
+            "time": "2021-01-06T14:41:37.925Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/pet_index/info/index.js",
+            "row": 265,
+            "column": 4,
+            "before": "wx.previewImage",
+            "after": "tt.previewImage",
+            "message": "api: previewImage 成功转化"
+        },
+        "154": {
+            "time": "2021-01-06T14:41:37.930Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/pet_index/info/index.js",
+            "row": 271,
+            "column": 4,
+            "before": "wx.showModal",
+            "after": "tt.showModal",
+            "message": "api: showModal 成功转化"
+        },
+        "155": {
+            "time": "2021-01-06T14:41:37.936Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/pet_index/info/index.js",
+            "row": 298,
+            "column": 4,
+            "before": "wx.showLoading",
+            "after": "tt.showLoading",
+            "message": "api: showLoading 成功转化"
+        },
+        "156": {
+            "time": "2021-01-06T14:41:37.943Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/pet_index/info/index.js",
+            "row": 309,
+            "column": 4,
+            "before": "wx.navigateBack",
+            "after": "tt.navigateBack",
+            "message": "api: navigateBack 成功转化"
+        },
+        "157": {
+            "time": "2021-01-06T14:41:37.951Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/pet_index/info/index.js",
+            "row": 315,
+            "column": 16,
+            "before": "wx.getStorageSync",
+            "after": "tt.getStorageSync",
+            "message": "api: getStorageSync 成功转化"
+        },
+        "158": {
+            "time": "2021-01-06T14:41:37.958Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/pet_index/info/index.js",
+            "row": 318,
+            "column": 6,
+            "before": "wx.uploadFile",
+            "after": "tt.uploadFile",
+            "message": "api: uploadFile 成功转化"
+        },
+        "159": {
+            "time": "2021-01-06T14:41:37.964Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/pet_index/info/index.js",
+            "row": 347,
+            "column": 16,
+            "before": "wx.getStorageSync",
+            "after": "tt.getStorageSync",
+            "message": "api: getStorageSync 成功转化"
+        },
+        "160": {
+            "time": "2021-01-06T14:41:37.970Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/pet_index/info/index.js",
+            "row": 362,
+            "column": 6,
+            "before": "wx.request",
+            "after": "tt.request",
+            "message": "api: request 成功转化"
+        },
+        "161": {
+            "time": "2021-01-06T14:41:38.037Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/pet_index/pet_add/pet_add.js",
+            "row": 39,
+            "column": 18,
+            "before": "wx.getStorageSync",
+            "after": "tt.getStorageSync",
+            "message": "api: getStorageSync 成功转化"
+        },
+        "162": {
+            "time": "2021-01-06T14:41:38.042Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/pet_index/pet_add/pet_add.js",
+            "row": 56,
+            "column": 16,
+            "before": "wx.getStorageSync",
+            "after": "tt.getStorageSync",
+            "message": "api: getStorageSync 成功转化"
+        },
+        "163": {
+            "time": "2021-01-06T14:41:38.048Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/pet_index/pet_add/pet_add.js",
+            "row": 58,
+            "column": 6,
+            "before": "wx.request",
+            "after": "tt.request",
+            "message": "api: request 成功转化"
+        },
+        "164": {
+            "time": "2021-01-06T14:41:38.054Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/pet_index/pet_add/pet_add.js",
+            "row": 87,
+            "column": 16,
+            "before": "wx.getStorageSync",
+            "after": "tt.getStorageSync",
+            "message": "api: getStorageSync 成功转化"
+        },
+        "165": {
+            "time": "2021-01-06T14:41:38.060Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/pet_index/pet_add/pet_add.js",
+            "row": 89,
+            "column": 6,
+            "before": "wx.request",
+            "after": "tt.request",
+            "message": "api: request 成功转化"
+        },
+        "166": {
+            "time": "2021-01-06T14:41:38.067Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/pet_index/pet_add/pet_add.js",
+            "row": 117,
+            "column": 16,
+            "before": "wx.getStorageSync",
+            "after": "tt.getStorageSync",
+            "message": "api: getStorageSync 成功转化"
+        },
+        "167": {
+            "time": "2021-01-06T14:41:38.073Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/pet_index/pet_add/pet_add.js",
+            "row": 119,
+            "column": 6,
+            "before": "wx.request",
+            "after": "tt.request",
+            "message": "api: request 成功转化"
+        },
+        "168": {
+            "time": "2021-01-06T14:41:38.081Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/pet_index/pet_add/pet_add.js",
+            "row": 225,
+            "column": 4,
+            "before": "wx.chooseImage",
+            "after": "tt.chooseImage",
+            "message": "api: chooseImage 成功转化"
+        },
+        "169": {
+            "time": "2021-01-06T14:41:38.088Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/pet_index/pet_add/pet_add.js",
+            "row": 246,
+            "column": 4,
+            "before": "wx.previewImage",
+            "after": "tt.previewImage",
+            "message": "api: previewImage 成功转化"
+        },
+        "170": {
+            "time": "2021-01-06T14:41:38.094Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/pet_index/pet_add/pet_add.js",
+            "row": 252,
+            "column": 4,
+            "before": "wx.showModal",
+            "after": "tt.showModal",
+            "message": "api: showModal 成功转化"
+        },
+        "171": {
+            "time": "2021-01-06T14:41:38.101Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/pet_index/pet_add/pet_add.js",
+            "row": 298,
+            "column": 4,
+            "before": "wx.navigateBack",
+            "after": "tt.navigateBack",
+            "message": "api: navigateBack 成功转化"
+        },
+        "172": {
+            "time": "2021-01-06T14:41:38.105Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/pet_index/pet_add/pet_add.js",
+            "row": 305,
+            "column": 16,
+            "before": "wx.getStorageSync",
+            "after": "tt.getStorageSync",
+            "message": "api: getStorageSync 成功转化"
+        },
+        "173": {
+            "time": "2021-01-06T14:41:38.108Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/pet_index/pet_add/pet_add.js",
+            "row": 307,
+            "column": 6,
+            "before": "wx.uploadFile",
+            "after": "tt.uploadFile",
+            "message": "api: uploadFile 成功转化"
+        },
+        "174": {
+            "time": "2021-01-06T14:41:38.115Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/pet_index/pet_add/pet_add.js",
+            "row": 345,
+            "column": 6,
+            "before": "wx.showModal",
+            "after": "tt.showModal",
+            "message": "api: showModal 成功转化"
+        },
+        "175": {
+            "time": "2021-01-06T14:41:38.119Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/pet_index/pet_add/pet_add.js",
+            "row": 354,
+            "column": 12,
+            "before": "wx.navigateBack",
+            "after": "tt.navigateBack",
+            "message": "api: navigateBack 成功转化"
+        },
+        "176": {
+            "time": "2021-01-06T14:41:38.122Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/pet_index/pet_add/pet_add.js",
+            "row": 362,
+            "column": 18,
+            "before": "wx.getStorageSync",
+            "after": "tt.getStorageSync",
+            "message": "api: getStorageSync 成功转化"
+        },
+        "177": {
+            "time": "2021-01-06T14:41:38.126Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/pet_index/pet_add/pet_add.js",
+            "row": 363,
+            "column": 16,
+            "before": "wx.getStorageSync",
+            "after": "tt.getStorageSync",
+            "message": "api: getStorageSync 成功转化"
+        },
+        "178": {
+            "time": "2021-01-06T14:41:38.130Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/pet_index/pet_add/pet_add.js",
+            "row": 366,
+            "column": 6,
+            "before": "wx.request",
+            "after": "tt.request",
+            "message": "api: request 成功转化"
+        },
+        "179": {
+            "time": "2021-01-06T14:41:38.135Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/pet_index/pet_add/pet_add.js",
+            "row": 397,
+            "column": 10,
+            "before": "wx.showToast",
+            "after": "tt.showToast",
+            "message": "api: showToast 成功转化"
+        },
+        "180": {
+            "time": "2021-01-06T14:41:38.138Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/pet_index/pet_add/pet_add.js",
+            "row": 406,
+            "column": 10,
+            "before": "wx.showToast",
+            "after": "tt.showToast",
+            "message": "api: showToast 成功转化"
+        },
+        "181": {
+            "time": "2021-01-06T14:41:38.141Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/pet_index/pet_add/pet_add.js",
+            "row": 420,
+            "column": 18,
+            "before": "wx.getStorageSync",
+            "after": "tt.getStorageSync",
+            "message": "api: getStorageSync 成功转化"
+        },
+        "182": {
+            "time": "2021-01-06T14:41:38.145Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/pet_index/pet_add/pet_add.js",
+            "row": 421,
+            "column": 16,
+            "before": "wx.getStorageSync",
+            "after": "tt.getStorageSync",
+            "message": "api: getStorageSync 成功转化"
+        },
+        "183": {
+            "time": "2021-01-06T14:41:38.149Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/pet_index/pet_add/pet_add.js",
+            "row": 425,
+            "column": 4,
+            "before": "wx.request",
+            "after": "tt.request",
+            "message": "api: request 成功转化"
+        },
+        "184": {
+            "time": "2021-01-06T14:41:38.154Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/pet_index/pet_add/pet_add.js",
+            "row": 450,
+            "column": 10,
+            "before": "wx.setStorageSync",
+            "after": "tt.setStorageSync",
+            "message": "api: setStorageSync 成功转化"
+        },
+        "185": {
+            "time": "2021-01-06T14:41:38.158Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/pet_index/pet_add/pet_add.js",
+            "row": 452,
+            "column": 10,
+            "before": "wx.showToast",
+            "after": "tt.showToast",
+            "message": "api: showToast 成功转化"
+        },
+        "186": {
+            "time": "2021-01-06T14:41:38.198Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/pet_index/pet_list/pet_list.js",
+            "row": 22,
+            "column": 16,
+            "before": "wx.getStorageSync",
+            "after": "tt.getStorageSync",
+            "message": "api: getStorageSync 成功转化"
+        },
+        "187": {
+            "time": "2021-01-06T14:41:38.203Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/pet_index/pet_list/pet_list.js",
+            "row": 25,
+            "column": 18,
+            "before": "wx.getStorageSync",
+            "after": "tt.getStorageSync",
+            "message": "api: getStorageSync 成功转化"
+        },
+        "188": {
+            "time": "2021-01-06T14:41:38.214Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/pet_index/pet_list/pet_list.js",
+            "row": 27,
+            "column": 4,
+            "before": "wx.request",
+            "after": "tt.request",
+            "message": "api: request 成功转化"
+        },
+        "189": {
+            "time": "2021-01-06T14:41:38.221Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/pet_index/pet_list/pet_list.js",
+            "row": 72,
+            "column": 16,
+            "before": "wx.getStorageSync",
+            "after": "tt.getStorageSync",
+            "message": "api: getStorageSync 成功转化"
+        },
+        "190": {
+            "time": "2021-01-06T14:41:38.228Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/pet_index/pet_list/pet_list.js",
+            "row": 74,
+            "column": 6,
+            "before": "wx.showModal",
+            "after": "tt.showModal",
+            "message": "api: showModal 成功转化"
+        },
+        "191": {
+            "time": "2021-01-06T14:41:38.235Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/pet_index/pet_list/pet_list.js",
+            "row": 84,
+            "column": 12,
+            "before": "wx.navigateTo",
+            "after": "tt.navigateTo",
+            "message": "api: navigateTo 成功转化"
+        },
+        "192": {
+            "time": "2021-01-06T14:41:38.242Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/pet_index/pet_list/pet_list.js",
+            "row": 100,
+            "column": 4,
+            "before": "wx.navigateTo",
+            "after": "tt.navigateTo",
+            "message": "api: navigateTo 成功转化"
+        },
+        "193": {
+            "time": "2021-01-06T14:41:38.250Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/pet_index/pet_list/pet_list.js",
+            "row": 114,
+            "column": 18,
+            "before": "wx.getStorageSync",
+            "after": "tt.getStorageSync",
+            "message": "api: getStorageSync 成功转化"
+        },
+        "194": {
+            "time": "2021-01-06T14:41:38.257Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/pet_index/pet_list/pet_list.js",
+            "row": 115,
+            "column": 16,
+            "before": "wx.getStorageSync",
+            "after": "tt.getStorageSync",
+            "message": "api: getStorageSync 成功转化"
+        },
+        "195": {
+            "time": "2021-01-06T14:41:38.262Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/pet_index/pet_list/pet_list.js",
+            "row": 120,
+            "column": 6,
+            "before": "wx.request",
+            "after": "tt.request",
+            "message": "api: request 成功转化"
+        },
+        "196": {
+            "time": "2021-01-06T14:41:38.267Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/pet_index/pet_list/pet_list.js",
+            "row": 145,
+            "column": 12,
+            "before": "wx.setStorageSync",
+            "after": "tt.setStorageSync",
+            "message": "api: setStorageSync 成功转化"
+        },
+        "197": {
+            "time": "2021-01-06T14:41:38.271Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/pet_index/pet_list/pet_list.js",
+            "row": 151,
+            "column": 12,
+            "before": "wx.showToast",
+            "after": "tt.showToast",
+            "message": "api: showToast 成功转化"
+        },
+        "198": {
+            "time": "2021-01-06T14:41:38.275Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/pet_index/pet_list/pet_list.js",
+            "row": 168,
+            "column": 4,
+            "before": "wx.navigateTo",
+            "after": "tt.navigateTo",
+            "message": "api: navigateTo 成功转化"
+        },
+        "199": {
+            "time": "2021-01-06T14:41:38.282Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/pet_index/pet_list/pet_list.js",
+            "row": 189,
+            "column": 4,
+            "before": "wx.navigateTo",
+            "after": "tt.navigateTo",
+            "message": "api: navigateTo 成功转化"
+        },
+        "200": {
+            "time": "2021-01-06T14:41:38.288Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/pet_index/pet_list/pet_list.js",
+            "row": 200,
+            "column": 16,
+            "before": "wx.getStorageSync",
+            "after": "tt.getStorageSync",
+            "message": "api: getStorageSync 成功转化"
+        },
+        "201": {
+            "time": "2021-01-06T14:41:38.293Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/pet_index/pet_list/pet_list.js",
+            "row": 201,
+            "column": 18,
+            "before": "wx.getStorageSync",
+            "after": "tt.getStorageSync",
+            "message": "api: getStorageSync 成功转化"
+        },
+        "202": {
+            "time": "2021-01-06T14:41:38.300Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/pet_index/pet_list/pet_list.js",
+            "row": 203,
+            "column": 6,
+            "before": "wx.request",
+            "after": "tt.request",
+            "message": "api: request 成功转化"
+        },
+        "203": {
+            "time": "2021-01-06T14:41:38.319Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/photographer/photographer.js",
+            "row": 24,
+            "column": 16,
+            "before": "wx.getStorageSync",
+            "after": "tt.getStorageSync",
+            "message": "api: getStorageSync 成功转化"
+        },
+        "204": {
+            "time": "2021-01-06T14:41:38.326Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/photographer/photographer.js",
+            "row": 25,
+            "column": 4,
+            "before": "wx.request",
+            "after": "tt.request",
+            "message": "api: request 成功转化"
+        },
+        "205": {
+            "time": "2021-01-06T14:41:38.333Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/photographer/photographer.js",
+            "row": 66,
+            "column": 6,
+            "before": "wx.navigateTo",
+            "after": "tt.navigateTo",
+            "message": "api: navigateTo 成功转化"
+        },
+        "206": {
+            "time": "2021-01-06T14:41:38.355Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/photography/add.js",
+            "row": 36,
+            "column": 4,
+            "before": "wx.navigateTo",
+            "after": "tt.navigateTo",
+            "message": "api: navigateTo 成功转化"
+        },
+        "207": {
+            "time": "2021-01-06T14:41:38.363Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/photography/add.js",
+            "row": 57,
+            "column": 4,
+            "before": "wx.previewImage",
+            "after": "tt.previewImage",
+            "message": "api: previewImage 成功转化"
+        },
+        "208": {
+            "time": "2021-01-06T14:41:38.367Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/photography/add.js",
+            "row": 63,
+            "column": 4,
+            "before": "wx.showModal",
+            "after": "tt.showModal",
+            "message": "api: showModal 成功转化"
+        },
+        "209": {
+            "time": "2021-01-06T14:41:38.374Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/photography/add.js",
+            "row": 89,
+            "column": 6,
+            "before": "wx.showToast",
+            "after": "tt.showToast",
+            "message": "api: showToast 成功转化"
+        },
+        "210": {
+            "time": "2021-01-06T14:41:38.378Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/photography/add.js",
+            "row": 97,
+            "column": 6,
+            "before": "wx.showToast",
+            "after": "tt.showToast",
+            "message": "api: showToast 成功转化"
+        },
+        "211": {
+            "time": "2021-01-06T14:41:38.383Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/photography/add.js",
+            "row": 109,
+            "column": 6,
+            "before": "wx.showToast",
+            "after": "tt.showToast",
+            "message": "api: showToast 成功转化"
+        },
+        "212": {
+            "time": "2021-01-06T14:41:38.387Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/photography/add.js",
+            "row": 116,
+            "column": 4,
+            "before": "wx.showLoading",
+            "after": "tt.showLoading",
+            "message": "api: showLoading 成功转化"
+        },
+        "213": {
+            "time": "2021-01-06T14:41:38.391Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/photography/add.js",
+            "row": 128,
+            "column": 4,
+            "before": "wx.navigateBack",
+            "after": "tt.navigateBack",
+            "message": "api: navigateBack 成功转化"
+        },
+        "214": {
+            "time": "2021-01-06T14:41:38.395Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/photography/add.js",
+            "row": 135,
+            "column": 16,
+            "before": "wx.getStorageSync",
+            "after": "tt.getStorageSync",
+            "message": "api: getStorageSync 成功转化"
+        },
+        "215": {
+            "time": "2021-01-06T14:41:38.398Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/photography/add.js",
+            "row": 137,
+            "column": 6,
+            "before": "wx.uploadFile",
+            "after": "tt.uploadFile",
+            "message": "api: uploadFile 成功转化"
+        },
+        "216": {
+            "time": "2021-01-06T14:41:38.401Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/photography/add.js",
+            "row": 170,
+            "column": 18,
+            "before": "wx.getStorageSync",
+            "after": "tt.getStorageSync",
+            "message": "api: getStorageSync 成功转化"
+        },
+        "217": {
+            "time": "2021-01-06T14:41:38.406Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/photography/add.js",
+            "row": 171,
+            "column": 16,
+            "before": "wx.getStorageSync",
+            "after": "tt.getStorageSync",
+            "message": "api: getStorageSync 成功转化"
+        },
+        "218": {
+            "time": "2021-01-06T14:41:38.410Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/photography/add.js",
+            "row": 174,
+            "column": 6,
+            "before": "wx.request",
+            "after": "tt.request",
+            "message": "api: request 成功转化"
+        },
+        "219": {
+            "time": "2021-01-06T14:41:38.414Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/photography/add.js",
+            "row": 193,
+            "column": 12,
+            "before": "wx.showToast",
+            "after": "tt.showToast",
+            "message": "api: showToast 成功转化"
+        },
+        "220": {
+            "time": "2021-01-06T14:41:38.417Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/photography/add.js",
+            "row": 202,
+            "column": 12,
+            "before": "wx.showToast",
+            "after": "tt.showToast",
+            "message": "api: showToast 成功转化"
+        },
+        "221": {
+            "time": "2021-01-06T14:41:38.422Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/photography/add.js",
+            "row": 212,
+            "column": 10,
+            "before": "wx.showToast",
+            "after": "tt.showToast",
+            "message": "api: showToast 成功转化"
+        },
+        "222": {
+            "time": "2021-01-06T14:41:38.438Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/photography/index.js",
+            "row": 22,
+            "column": 8,
+            "before": "wx.hideLoading",
+            "after": "tt.hideLoading",
+            "message": "api: hideLoading 成功转化"
+        },
+        "223": {
+            "time": "2021-01-06T14:41:38.446Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/photography/index.js",
+            "row": 29,
+            "column": 8,
+            "before": "wx.previewImage",
+            "after": "tt.previewImage",
+            "message": "api: previewImage 成功转化"
+        },
+        "224": {
+            "time": "2021-01-06T14:41:38.449Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/photography/index.js",
+            "row": 36,
+            "column": 8,
+            "before": "wx.chooseImage",
+            "after": "tt.chooseImage",
+            "message": "api: chooseImage 成功转化"
+        },
+        "225": {
+            "time": "2021-01-06T14:41:38.454Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/photography/index.js",
+            "row": 41,
+            "column": 16,
+            "before": "wx.showLoading",
+            "after": "tt.showLoading",
+            "message": "api: showLoading 成功转化"
+        },
+        "226": {
+            "time": "2021-01-06T14:41:38.462Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/photography/index.js",
+            "row": 142,
+            "column": 12,
+            "before": "wx.navigateBack",
+            "after": "tt.navigateBack",
+            "message": "api: navigateBack 成功转化"
+        },
+        "227": {
+            "time": "2021-01-06T14:41:38.475Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/photography/photography.js",
+            "row": 5,
+            "column": 15,
+            "before": "wx.getSystemInfoSync",
+            "after": "tt.getSystemInfoSync",
+            "message": "api: getSystemInfoSync 成功转化"
+        },
+        "228": {
+            "time": "2021-01-06T14:41:38.484Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/photography/photography.js",
+            "row": 37,
+            "column": 8,
+            "before": "wx.showToast",
+            "after": "tt.showToast",
+            "message": "api: showToast 成功转化"
+        },
+        "229": {
+            "time": "2021-01-06T14:41:38.488Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/photography/photography.js",
+            "row": 44,
+            "column": 8,
+            "before": "wx.hideToast",
+            "after": "tt.hideToast",
+            "message": "api: hideToast 成功转化"
+        },
+        "230": {
+            "time": "2021-01-06T14:41:38.495Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/photography/photography.js",
+            "row": 49,
+            "column": 4,
+            "before": "wx.chooseImage",
+            "after": "tt.chooseImage",
+            "message": "api: chooseImage 成功转化"
+        },
+        "231": {
+            "time": "2021-01-06T14:41:38.529Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/protocol/protocol.js",
+            "row": 169,
+            "column": 20,
+            "before": "wx.getStorageSync",
+            "after": "tt.getStorageSync",
+            "message": "api: getStorageSync 成功转化"
+        },
+        "232": {
+            "time": "2021-01-06T14:41:38.532Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/protocol/protocol.js",
+            "row": 171,
+            "column": 12,
+            "before": "wx.request",
+            "after": "tt.request",
+            "message": "api: request 成功转化"
+        },
+        "233": {
+            "time": "2021-01-06T14:41:38.536Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/protocol/protocol.js",
+            "row": 199,
+            "column": 20,
+            "before": "wx.getStorageSync",
+            "after": "tt.getStorageSync",
+            "message": "api: getStorageSync 成功转化"
+        },
+        "234": {
+            "time": "2021-01-06T14:41:38.541Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/protocol/protocol.js",
+            "row": 201,
+            "column": 12,
+            "before": "wx.request",
+            "after": "tt.request",
+            "message": "api: request 成功转化"
+        },
+        "235": {
+            "time": "2021-01-06T14:41:38.566Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/register/register.js",
+            "row": 218,
+            "column": 16,
+            "before": "wx.getStorageSync",
+            "after": "tt.getStorageSync",
+            "message": "api: getStorageSync 成功转化"
+        },
+        "236": {
+            "time": "2021-01-06T14:41:38.570Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/register/register.js",
+            "row": 219,
+            "column": 4,
+            "before": "wx.request",
+            "after": "tt.request",
+            "message": "api: request 成功转化"
+        },
+        "237": {
+            "time": "2021-01-06T14:41:38.575Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/register/register.js",
+            "row": 231,
+            "column": 8,
+            "before": "wx.showToast",
+            "after": "tt.showToast",
+            "message": "api: showToast 成功转化"
+        },
+        "238": {
+            "time": "2021-01-06T14:41:38.579Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/register/register.js",
+            "row": 243,
+            "column": 8,
+            "before": "wx.showToast",
+            "after": "tt.showToast",
+            "message": "api: showToast 成功转化"
+        },
+        "239": {
+            "time": "2021-01-06T14:41:38.583Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/register/register.js",
+            "row": 294,
+            "column": 16,
+            "before": "wx.getStorageSync",
+            "after": "tt.getStorageSync",
+            "message": "api: getStorageSync 成功转化"
+        },
+        "240": {
+            "time": "2021-01-06T14:41:38.587Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/register/register.js",
+            "row": 296,
+            "column": 6,
+            "before": "wx.request",
+            "after": "tt.request",
+            "message": "api: request 成功转化"
+        },
+        "241": {
+            "time": "2021-01-06T14:41:38.591Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/register/register.js",
+            "row": 322,
+            "column": 6,
+            "before": "wx.showModal",
+            "after": "tt.showModal",
+            "message": "api: showModal 成功转化"
+        },
+        "242": {
+            "time": "2021-01-06T14:41:38.595Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/register/register.js",
+            "row": 348,
+            "column": 4,
+            "before": "wx.request",
+            "after": "tt.request",
+            "message": "api: request 成功转化"
+        },
+        "243": {
+            "time": "2021-01-06T14:41:38.600Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/register/register.js",
+            "row": 361,
+            "column": 10,
+            "before": "wx.setStorageSync",
+            "after": "tt.setStorageSync",
+            "message": "api: setStorageSync 成功转化"
+        },
+        "244": {
+            "time": "2021-01-06T14:41:38.603Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/register/register.js",
+            "row": 362,
+            "column": 10,
+            "before": "wx.setStorageSync",
+            "after": "tt.setStorageSync",
+            "message": "api: setStorageSync 成功转化"
+        },
+        "245": {
+            "time": "2021-01-06T14:41:38.607Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/register/register.js",
+            "row": 364,
+            "column": 10,
+            "before": "wx.showToast",
+            "after": "tt.showToast",
+            "message": "api: showToast 成功转化"
+        },
+        "246": {
+            "time": "2021-01-06T14:41:38.611Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/register/register.js",
+            "row": 370,
+            "column": 10,
+            "before": "wx.navigateTo",
+            "after": "tt.navigateTo",
+            "message": "api: navigateTo 成功转化"
+        },
+        "247": {
+            "time": "2021-01-06T14:41:38.616Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/register/register.js",
+            "row": 374,
+            "column": 10,
+            "before": "wx.showToast",
+            "after": "tt.showToast",
+            "message": "api: showToast 成功转化"
+        },
+        "248": {
+            "time": "2021-01-06T14:41:38.620Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/register/register.js",
+            "row": 383,
+            "column": 8,
+            "before": "wx.showToast",
+            "after": "tt.showToast",
+            "message": "api: showToast 成功转化"
+        },
+        "249": {
+            "time": "2021-01-06T14:41:38.627Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/register/register.js",
+            "row": 409,
+            "column": 4,
+            "before": "wx.login",
+            "after": "tt.login",
+            "message": "api: login 成功转化"
+        },
+        "250": {
+            "time": "2021-01-06T14:41:38.631Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/register/register.js",
+            "row": 411,
+            "column": 8,
+            "before": "wx.request",
+            "after": "tt.request",
+            "message": "api: request 成功转化"
+        },
+        "251": {
+            "time": "2021-01-06T14:41:38.635Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/register/register.js",
+            "row": 422,
+            "column": 12,
+            "before": "wx.showToast",
+            "after": "tt.showToast",
+            "message": "api: showToast 成功转化"
+        },
+        "252": {
+            "time": "2021-01-06T14:41:38.639Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/register/register.js",
+            "row": 427,
+            "column": 12,
+            "before": "wx.setStorageSync",
+            "after": "tt.setStorageSync",
+            "message": "api: setStorageSync 成功转化"
+        },
+        "253": {
+            "time": "2021-01-06T14:41:38.643Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/register/register.js",
+            "row": 428,
+            "column": 12,
+            "before": "wx.navigateTo",
+            "after": "tt.navigateTo",
+            "message": "api: navigateTo 成功转化"
+        },
+        "254": {
+            "time": "2021-01-06T14:41:38.648Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/register/register.js",
+            "row": 433,
+            "column": 12,
+            "before": "wx.showToast",
+            "after": "tt.showToast",
+            "message": "api: showToast 成功转化"
+        },
+        "255": {
+            "time": "2021-01-06T14:41:38.652Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/register/register.js",
+            "row": 442,
+            "column": 8,
+            "before": "wx.showToast",
+            "after": "tt.showToast",
+            "message": "api: showToast 成功转化"
+        },
+        "256": {
+            "time": "2021-01-06T14:41:38.655Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/register/register.js",
+            "row": 451,
+            "column": 4,
+            "before": "wx.navigateTo",
+            "after": "tt.navigateTo",
+            "message": "api: navigateTo 成功转化"
+        },
+        "257": {
+            "time": "2021-01-06T14:41:38.659Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/register/register.js",
+            "row": 458,
+            "column": 4,
+            "before": "wx.navigateTo",
+            "after": "tt.navigateTo",
+            "message": "api: navigateTo 成功转化"
+        },
+        "258": {
+            "time": "2021-01-06T14:41:38.681Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/user_index/index/index.js",
+            "row": 207,
+            "column": 8,
+            "before": "wx.navigateTo",
+            "after": "tt.navigateTo",
+            "message": "api: navigateTo 成功转化"
+        },
+        "259": {
+            "time": "2021-01-06T14:41:38.686Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/user_index/index/index.js",
+            "row": 220,
+            "column": 8,
+            "before": "wx.navigateTo",
+            "after": "tt.navigateTo",
+            "message": "api: navigateTo 成功转化"
+        },
+        "260": {
+            "time": "2021-01-06T14:41:38.694Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/user_index/index/index.js",
+            "row": 233,
+            "column": 8,
+            "before": "wx.navigateTo",
+            "after": "tt.navigateTo",
+            "message": "api: navigateTo 成功转化"
+        },
+        "261": {
+            "time": "2021-01-06T14:41:38.699Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/user_index/index/index.js",
+            "row": 246,
+            "column": 8,
+            "before": "wx.navigateTo",
+            "after": "tt.navigateTo",
+            "message": "api: navigateTo 成功转化"
+        },
+        "262": {
+            "time": "2021-01-06T14:41:38.744Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/user_index/info/index.js",
+            "row": 74,
+            "column": 18,
+            "before": "wx.getStorageSync",
+            "after": "tt.getStorageSync",
+            "message": "api: getStorageSync 成功转化"
+        },
+        "263": {
+            "time": "2021-01-06T14:41:38.750Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/user_index/info/index.js",
+            "row": 80,
+            "column": 18,
+            "before": "wx.getStorageSync",
+            "after": "tt.getStorageSync",
+            "message": "api: getStorageSync 成功转化"
+        },
+        "264": {
+            "time": "2021-01-06T14:41:38.754Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/user_index/info/index.js",
+            "row": 86,
+            "column": 16,
+            "before": "wx.getStorageSync",
+            "after": "tt.getStorageSync",
+            "message": "api: getStorageSync 成功转化"
+        },
+        "265": {
+            "time": "2021-01-06T14:41:38.758Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/user_index/info/index.js",
+            "row": 88,
+            "column": 6,
+            "before": "wx.request",
+            "after": "tt.request",
+            "message": "api: request 成功转化"
+        },
+        "266": {
+            "time": "2021-01-06T14:41:38.768Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/user_index/info/index.js",
+            "row": 209,
+            "column": 4,
+            "before": "wx.chooseImage",
+            "after": "tt.chooseImage",
+            "message": "api: chooseImage 成功转化"
+        },
+        "267": {
+            "time": "2021-01-06T14:41:38.771Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/user_index/info/index.js",
+            "row": 229,
+            "column": 4,
+            "before": "wx.previewImage",
+            "after": "tt.previewImage",
+            "message": "api: previewImage 成功转化"
+        },
+        "268": {
+            "time": "2021-01-06T14:41:38.775Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/user_index/info/index.js",
+            "row": 235,
+            "column": 4,
+            "before": "wx.showModal",
+            "after": "tt.showModal",
+            "message": "api: showModal 成功转化"
+        },
+        "269": {
+            "time": "2021-01-06T14:41:38.780Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/user_index/info/index.js",
+            "row": 274,
+            "column": 16,
+            "before": "wx.getStorageSync",
+            "after": "tt.getStorageSync",
+            "message": "api: getStorageSync 成功转化"
+        },
+        "270": {
+            "time": "2021-01-06T14:41:38.784Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/user_index/info/index.js",
+            "row": 275,
+            "column": 18,
+            "before": "wx.getStorageSync",
+            "after": "tt.getStorageSync",
+            "message": "api: getStorageSync 成功转化"
+        },
+        "271": {
+            "time": "2021-01-06T14:41:38.788Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/user_index/info/index.js",
+            "row": 277,
+            "column": 6,
+            "before": "wx.request",
+            "after": "tt.request",
+            "message": "api: request 成功转化"
+        },
+        "272": {
+            "time": "2021-01-06T14:41:38.792Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/user_index/info/index.js",
+            "row": 297,
+            "column": 12,
+            "before": "wx.showToast",
+            "after": "tt.showToast",
+            "message": "api: showToast 成功转化"
+        },
+        "273": {
+            "time": "2021-01-06T14:41:38.797Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/user_index/info/index.js",
+            "row": 309,
+            "column": 12,
+            "before": "wx.navigateBack",
+            "after": "tt.navigateBack",
+            "message": "api: navigateBack 成功转化"
+        },
+        "274": {
+            "time": "2021-01-06T14:41:38.801Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/user_index/info/index.js",
+            "row": 313,
+            "column": 12,
+            "before": "wx.showToast",
+            "after": "tt.showToast",
+            "message": "api: showToast 成功转化"
+        },
+        "275": {
+            "time": "2021-01-06T14:41:38.805Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/user_index/info/index.js",
+            "row": 336,
+            "column": 4,
+            "before": "wx.navigateTo",
+            "after": "tt.navigateTo",
+            "message": "api: navigateTo 成功转化"
+        },
+        "276": {
+            "time": "2021-01-06T14:41:38.819Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/userInfo/userInfo.js",
+            "row": 22,
+            "column": 16,
+            "before": "wx.getStorageSync",
+            "after": "tt.getStorageSync",
+            "message": "api: getStorageSync 成功转化"
+        },
+        "277": {
+            "time": "2021-01-06T14:41:38.826Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/userInfo/userInfo.js",
+            "row": 23,
+            "column": 4,
+            "before": "wx.login",
+            "after": "tt.login",
+            "message": "api: login 成功转化"
+        },
+        "278": {
+            "time": "2021-01-06T14:41:38.832Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/userInfo/userInfo.js",
+            "row": 26,
+            "column": 8,
+            "before": "wx.request",
+            "after": "tt.request",
+            "message": "api: request 成功转化"
+        },
+        "279": {
+            "time": "2021-01-06T14:41:38.837Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/userInfo/userInfo.js",
+            "row": 56,
+            "column": 6,
+            "before": "wx.request",
+            "after": "tt.request",
+            "message": "api: request 成功转化"
+        },
+        "280": {
+            "time": "2021-01-06T14:41:38.853Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/verify_phone_number/verify_phone_number.js",
+            "row": 56,
+            "column": 16,
+            "before": "wx.getStorageSync",
+            "after": "tt.getStorageSync",
+            "message": "api: getStorageSync 成功转化"
+        },
+        "281": {
+            "time": "2021-01-06T14:41:38.861Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/verify_phone_number/verify_phone_number.js",
+            "row": 57,
+            "column": 4,
+            "before": "wx.request",
+            "after": "tt.request",
+            "message": "api: request 成功转化"
+        },
+        "282": {
+            "time": "2021-01-06T14:41:38.867Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/verify_phone_number/verify_phone_number.js",
+            "row": 69,
+            "column": 8,
+            "before": "wx.showToast",
+            "after": "tt.showToast",
+            "message": "api: showToast 成功转化"
+        },
+        "283": {
+            "time": "2021-01-06T14:41:38.872Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/verify_phone_number/verify_phone_number.js",
+            "row": 82,
+            "column": 8,
+            "before": "wx.showToast",
+            "after": "tt.showToast",
+            "message": "api: showToast 成功转化"
+        },
+        "284": {
+            "time": "2021-01-06T14:41:38.877Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/verify_phone_number/verify_phone_number.js",
+            "row": 121,
+            "column": 16,
+            "before": "wx.getStorageSync",
+            "after": "tt.getStorageSync",
+            "message": "api: getStorageSync 成功转化"
+        },
+        "285": {
+            "time": "2021-01-06T14:41:38.882Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/verify_phone_number/verify_phone_number.js",
+            "row": 123,
+            "column": 4,
+            "before": "wx.request",
+            "after": "tt.request",
+            "message": "api: request 成功转化"
+        },
+        "286": {
+            "time": "2021-01-06T14:41:38.892Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/verify_phone_number/verify_phone_number.js",
+            "row": 136,
+            "column": 8,
+            "before": "wx.showToast",
+            "after": "tt.showToast",
+            "message": "api: showToast 成功转化"
+        },
+        "287": {
+            "time": "2021-01-06T14:41:38.897Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/verify_phone_number/verify_phone_number.js",
+            "row": 142,
+            "column": 8,
+            "before": "wx.navigateTo",
+            "after": "tt.navigateTo",
+            "message": "api: navigateTo 成功转化"
+        },
+        "288": {
+            "time": "2021-01-06T14:41:38.900Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/verify_phone_number/verify_phone_number.js",
+            "row": 148,
+            "column": 8,
+            "before": "wx.showToast",
+            "after": "tt.showToast",
+            "message": "api: showToast 成功转化"
+        },
+        "289": {
+            "time": "2021-01-06T14:41:38.905Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/verify_phone_number/verify_phone_number.js",
+            "row": 161,
+            "column": 6,
+            "before": "wx.request",
+            "after": "tt.request",
+            "message": "api: request 成功转化"
+        },
+        "290": {
+            "time": "2021-01-06T14:41:38.912Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/verify_phone_number/verify_phone_number.js",
+            "row": 172,
+            "column": 10,
+            "before": "wx.showToast",
+            "after": "tt.showToast",
+            "message": "api: showToast 成功转化"
+        },
+        "291": {
+            "time": "2021-01-06T14:41:38.916Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/verify_phone_number/verify_phone_number.js",
+            "row": 181,
+            "column": 6,
+            "before": "wx.showToast",
+            "after": "tt.showToast",
+            "message": "api: showToast 成功转化"
+        },
+        "292": {
+            "time": "2021-01-06T14:41:39.004Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/wecropper/we-cropper.js",
+            "row": 36,
+            "column": 13,
+            "before": "wx.getSystemInfoSync",
+            "after": "tt.getSystemInfoSync",
+            "message": "api: getSystemInfoSync 成功转化"
+        },
+        "293": {
+            "time": "2021-01-06T14:41:39.010Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/wecropper/we-cropper.js",
+            "row": 228,
+            "column": 29,
+            "before": "wx.createCanvasContext",
+            "after": "tt.createCanvasContext",
+            "message": "api: createCanvasContext 成功转化"
+        },
+        "294": {
+            "time": "2021-01-06T14:41:39.021Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/wecropper/we-cropper.js",
+            "row": 229,
+            "column": 41,
+            "before": "wx.createCanvasContext",
+            "after": "tt.createCanvasContext",
+            "message": "api: createCanvasContext 成功转化"
+        },
+        "295": {
+            "time": "2021-01-06T14:41:39.029Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/wecropper/we-cropper.js",
+            "row": 363,
+            "column": 29,
+            "before": "wx.getImageInfo",
+            "after": "tt.getImageInfo",
+            "message": "api: getImageInfo 成功转化"
+        },
+        "296": {
+            "time": "2021-01-06T14:41:39.139Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/wecropper/we-cropper.min.js",
+            "row": 6,
+            "column": 393,
+            "before": "wx.getSystemInfoSync",
+            "after": "tt.getSystemInfoSync",
+            "message": "api: getSystemInfoSync 成功转化"
+        },
+        "297": {
+            "time": "2021-01-06T14:41:39.146Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/wecropper/we-cropper.min.js",
+            "row": 6,
+            "column": 3450,
+            "before": "wx.getImageInfo",
+            "after": "tt.getImageInfo",
+            "message": "api: getImageInfo 成功转化"
+        },
+        "298": {
+            "time": "2021-01-06T14:41:39.166Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/wecropper/we-cropper.min.js",
+            "row": 6,
+            "column": 7466,
+            "before": "wx.createCanvasContext",
+            "after": "tt.createCanvasContext",
+            "message": "api: createCanvasContext 成功转化"
+        },
+        "299": {
+            "time": "2021-01-06T14:41:39.172Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/pages/wecropper/we-cropper.min.js",
+            "row": 6,
+            "column": 7517,
+            "before": "wx.createCanvasContext",
+            "after": "tt.createCanvasContext",
+            "message": "api: createCanvasContext 成功转化"
+        },
+        "300": {
+            "time": "2021-01-06T14:41:39.643Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/utils/zhenzisms.js",
+            "row": 12,
+            "column": 2,
+            "before": "wx.request",
+            "after": "tt.request",
+            "message": "api: request 成功转化"
+        },
+        "301": {
+            "time": "2021-01-06T14:41:39.651Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/utils/zhenzisms.js",
+            "row": 33,
+            "column": 2,
+            "before": "wx.request",
+            "after": "tt.request",
+            "message": "api: request 成功转化"
+        },
+        "302": {
+            "time": "2021-01-06T14:41:39.659Z",
+            "type": "transform function call arg name",
+            "file": "/Users/chenzuoli/WeChatProjects/photography-bytedance/utils/zhenzisms.js",
+            "row": 51,
+            "column": 2,
+            "before": "wx.request",
+            "after": "tt.request",
+            "message": "api: request 成功转化"
+        },
+        "303": {
+            "time": "2021-01-06T14:41:39.673Z",
+            "type": "stdOut",
+            "message": "🍻    Successfully transform js file"
+        },
+        "304": {
+            "time": "2021-01-06T14:41:39.831Z",
+            "type": "stdOut",
+            "message": "🍻    Successfully transform wxml file"
+        },
+        "305": {
+            "time": "2021-01-06T14:41:39.900Z",
+            "type": "stdOut",
+            "message": "🍻    Successfully transform wxss file"
+        }
+    }
+}

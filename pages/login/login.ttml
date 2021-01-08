@@ -1,0 +1,24 @@
+<!-- pages/login/login.wxml -->
+<cu-custom bgColor="bg-gradual-pink" isBack="{{true}}">
+  <view slot="backText">返回</view>
+  <view slot="content">登录</view>
+</cu-custom>
+<form bindsubmit="login">
+  <view class="cu-form-group margin-top">
+    <view class="title">手机号</view>
+    <input bindinput="accountInput" placeholder="请输入手机号" name='phone'></input>
+  </view>
+  <view class="cu-form-group margin-top">
+    <view class="title">密码</view>
+    <input bindblur="pwdBlur" placeholder="请输入密码" password="true" name='pwd'></input>
+  </view>
+  <view class="cu-form-group margin-top">
+    <button class="btnSubmit" form-type="submit">登 录</button>
+    <button class="register" bindtap='register'>注 册</button>
+  </view>
+  <view class="cu-form-group">
+    <button class="link_tt" open-type='getUserInfo' lang="zh_CN" bindgetuserinfo="onGotUserInfo">
+      头条账号登录
+    </button>
+  </view>
+</form>

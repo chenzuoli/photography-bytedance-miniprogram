@@ -1,0 +1,17 @@
+/**app.ttss**/
+@import "colorui/icon.ttss";
+@import "colorui/main.ttss";
+/* @import "aminate/aminate.ttss"; */
+/* @import '/miniprogram_npm/weui-miniprogram/weui-wxss/dist/style/weui.ttss'; */
+
+
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+}
+

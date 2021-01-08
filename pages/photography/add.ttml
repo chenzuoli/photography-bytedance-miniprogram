@@ -1,0 +1,39 @@
+<!--pages/photography/add.ttml-->
+<cu-custom bgColor="bg-gradual-pink" isBack="{{true}}">
+  <view slot="backText">返回</view>
+  <view slot="content">添加作品</view>
+</cu-custom>
+<form bindsubmit="submit">
+  <view class="cu-bar bg-white margin-top">
+    <view class="action">
+      作品上传
+    </view>
+    <view class="action">
+      {{imgList.length}}/1
+    </view>
+  </view>
+  <view class="cu-form-group">
+    <view class="grid col-4 grid-square flex-sub">
+      <view class="bg-img" tt:for="{{imgList}}" tt:key="{{index}}" bindtap="ViewImage" data-url="{{imgList[index]}}">
+        <image src='{{imgList[index]}}' mode='aspectFill'></image>
+        <view class="cu-tag bg-red" catchtap="DelImg" data-index="{{index}}">
+          <text class="cuIcon-close"></text>
+        </view>
+      </view>
+      <view class="solids" bindtap="ChooseImage" tt:if="{{imgList.length<1}}">
+        <text class="cuIcon-cameraadd"></text>
+      </view>
+    </view>
+  </view>
+  <view class="cu-form-group margin-top">
+    <view class="title">昵称</view>
+    <input name='nick_name' placeholder="小宠叫什么呢？"></input>
+  </view>
+  <view class="cu-form-group margin-top">
+    <textarea maxlength="-1" disabled="{{modalName!=null}}" bindinput="textareaAInput" placeholder="作品主题"></textarea>
+  </view>
+
+  <view class="cu-form-group">
+    <button class="btnSubmit" form-type="submit">添 加</button>
+  </view>
+</form>

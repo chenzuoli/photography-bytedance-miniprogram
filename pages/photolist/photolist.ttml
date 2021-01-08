@@ -1,0 +1,8 @@
+<!--pages/photolist/photolist.ttml-->
+<scroll-view class="scroll-box" scroll-x scroll-with-animation scroll-into-view="{{toView}}" bindtouchstart="touchStart" bindtouchend="touchEnd">
+    <view tt:for="{{list}}" tt:key="{{item}}" class="card-box" id="card_{{index}}">
+      <view class="card">
+        <text>{{item}}</text>
+      </view>
+    </view>
+</scroll-view>

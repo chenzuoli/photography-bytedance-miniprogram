@@ -1,0 +1,15 @@
+.page {
+  height: 100vh;
+  width: 100vw;
+}
+.cu-form-group .title {
+  min-width: calc(4em + 30rpx);
+}
+
+.btnSubmit {
+  margin: 40px;
+  margin-left: 100px;
+  margin-right: 100px;
+  width: 130px;
+  font-size: 30rpx;
+}

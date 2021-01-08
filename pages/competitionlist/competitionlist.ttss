@@ -1,0 +1,46 @@
+/* pages/competitionlist/competitionlist.ttss */
+/* pages/competitionlist/competitionlist.ttss */
+.page {
+  height: 100Vh;
+  width: 100vw;
+}
+
+.page.show {
+  overflow: hidden;
+}
+
+.switch-sex::after {
+  content: "\e716";
+}
+
+.switch-sex::before {
+  content: "\e7a9";
+}
+
+.switch-music::after {
+  content: "\e66a";
+}
+
+.switch-music::before {
+  content: "\e6db";
+}
+
+.weui-tab__content_title {
+  display: flex;
+  /*设置显示样式**/
+  align-items: center;
+  /**子view垂直居中*/
+  vertical-align: center;
+  /**垂直居中*/
+  justify-content: center;
+  /**内容居中*/
+  flex-direction: row;
+}
+
+.add_icon {
+  position: fixed;
+  /* width: 42px;
+  height: 42px;
+  bottom: 230px;
+  right: 20px; */
+}

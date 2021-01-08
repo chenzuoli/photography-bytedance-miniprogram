@@ -1,0 +1,313 @@
+转换了视图文件后缀, wxml ==> ttml
+转换了样式文件后缀, wxss ==> ttss
+转换了视图文件后缀, wxml ==> ttml
+转换了样式文件后缀, wxss ==> ttss
+转换了样式文件后缀, wxss ==> ttss
+转换了视图文件后缀, wxml ==> ttml
+转换了样式文件后缀, wxss ==> ttss
+转换了样式文件后缀, wxss ==> ttss
+转换了样式文件后缀, wxss ==> ttss
+转换了视图文件后缀, wxml ==> ttml
+转换了样式文件后缀, wxss ==> ttss
+转换了视图文件后缀, wxml ==> ttml
+转换了样式文件后缀, wxss ==> ttss
+转换了视图文件后缀, wxml ==> ttml
+转换了样式文件后缀, wxss ==> ttss
+转换了视图文件后缀, wxml ==> ttml
+转换了样式文件后缀, wxss ==> ttss
+转换了视图文件后缀, wxml ==> ttml
+转换了样式文件后缀, wxss ==> ttss
+转换了视图文件后缀, wxml ==> ttml
+转换了样式文件后缀, wxss ==> ttss
+转换了视图文件后缀, wxml ==> ttml
+转换了样式文件后缀, wxss ==> ttss
+转换了视图文件后缀, wxml ==> ttml
+转换了样式文件后缀, wxss ==> ttss
+转换了视图文件后缀, wxml ==> ttml
+转换了样式文件后缀, wxss ==> ttss
+转换了视图文件后缀, wxml ==> ttml
+转换了样式文件后缀, wxss ==> ttss
+转换了视图文件后缀, wxml ==> ttml
+转换了样式文件后缀, wxss ==> ttss
+转换了视图文件后缀, wxml ==> ttml
+转换了样式文件后缀, wxss ==> ttss
+转换了视图文件后缀, wxml ==> ttml
+转换了样式文件后缀, wxss ==> ttss
+转换了视图文件后缀, wxml ==> ttml
+转换了样式文件后缀, wxss ==> ttss
+转换了视图文件后缀, wxml ==> ttml
+转换了样式文件后缀, wxss ==> ttss
+转换了视图文件后缀, wxml ==> ttml
+转换了样式文件后缀, wxss ==> ttss
+转换了视图文件后缀, wxml ==> ttml
+转换了样式文件后缀, wxss ==> ttss
+转换了视图文件后缀, wxml ==> ttml
+转换了样式文件后缀, wxss ==> ttss
+转换了视图文件后缀, wxml ==> ttml
+转换了样式文件后缀, wxss ==> ttss
+转换了视图文件后缀, wxml ==> ttml
+转换了样式文件后缀, wxss ==> ttss
+转换了视图文件后缀, wxml ==> ttml
+转换了样式文件后缀, wxss ==> ttss
+转换了视图文件后缀, wxml ==> ttml
+api: request 成功转化
+api: getStorageSync 成功转化
+api: request 成功转化
+api: getStorageSync 成功转化
+api: showLoading 成功转化
+api: hideLoading 成功转化
+api: getStorageSync 成功转化
+api: setStorageSync 成功转化
+api: getSystemInfo 成功转化
+api: getMenuButtonBoundingClientRect 成功转化
+api: login 成功转化
+api: request 成功转化
+api: removeStorageSync 成功转化
+api: setStorageSync 成功转化
+api: setStorageSync 成功转化
+api: getSetting 成功转化
+api: getUserInfo 成功转化
+api: login 成功转化
+api: getUserInfo 成功转化
+api: setStorageSync 成功转化
+api: chooseImage 成功转化
+api: request 成功转化
+api: getUserInfo 成功转化
+api: navigateBack 成功转化
+api: reLaunch 成功转化
+api: chooseImage 成功转化
+api: previewImage 成功转化
+api: showModal 成功转化
+api: showLoading 成功转化
+api: hideLoading 成功转化
+api: setClipboardData 成功转化
+api: showToast 成功转化
+api: previewImage 成功转化
+api: navigateTo 成功转化
+api: navigateTo 成功转化
+api: navigateTo 成功转化
+api: navigateTo 成功转化
+api: chooseImage 成功转化
+api: previewImage 成功转化
+api: showModal 成功转化
+api: showToast 成功转化
+api: showToast 成功转化
+api: showToast 成功转化
+api: showToast 成功转化
+api: navigateTo 成功转化
+api: getStorageSync 成功转化
+api: uploadFile 成功转化
+api: getStorageSync 成功转化
+api: getStorageSync 成功转化
+api: request 成功转化
+api: showToast 成功转化
+api: chooseImage 成功转化
+api: getStorageSync 成功转化
+api: request 成功转化
+api: showToast 成功转化
+api: getStorageSync 成功转化
+api: getStorageSync 成功转化
+api: setStorageSync 成功转化
+api: getStorageSync 成功转化
+api: setStorageSync 成功转化
+api: request 成功转化
+api: showToast 成功转化
+api: showToast 成功转化
+api: getStorageSync 成功转化
+api: navigateTo 成功转化
+api: navigateTo 成功转化
+api: getSystemInfoSync 成功转化
+api: getSystemInfoSync 成功转化
+api: getSystemInfoSync 成功转化
+api: getSystemInfoSync 成功转化
+api: chooseImage 成功转化
+api: showLoading 成功转化
+api: canvasToTempFilePath 字节跳动小程序暂不支持，仅更换前缀。请参考微信小程序文档完成适配：https://developers.weixin.qq.com/miniprogram/dev/api/canvas/wx.canvasToTempFilePath.html
+api: getSystemInfoSync 成功转化
+api: getSystemInfoSync 成功转化
+api: getImageInfo 成功转化
+api: createCanvasContext 成功转化
+api: canvasToTempFilePath 字节跳动小程序暂不支持，仅更换前缀。请参考微信小程序文档完成适配：https://developers.weixin.qq.com/miniprogram/dev/api/canvas/wx.canvasToTempFilePath.html
+api: login 成功转化
+api: request 成功转化
+api: showToast 成功转化
+api: setStorageSync 成功转化
+api: navigateBack 成功转化
+api: showToast 成功转化
+api: showToast 成功转化
+api: getLocation 成功转化
+api: navigateTo 成功转化
+api: request 成功转化
+api: showToast 成功转化
+api: setStorageSync 成功转化
+api: setStorageSync 成功转化
+api: navigateTo 成功转化
+api: showModal 成功转化
+api: showToast 成功转化
+api: getStorageSync 成功转化
+api: getStorageSync 成功转化
+api: request 成功转化
+api: getStorageSync 成功转化
+api: request 成功转化
+api: getStorageSync 成功转化
+api: request 成功转化
+api: chooseImage 成功转化
+api: previewImage 成功转化
+api: showModal 成功转化
+api: showLoading 成功转化
+api: navigateBack 成功转化
+api: getStorageSync 成功转化
+api: uploadFile 成功转化
+api: getStorageSync 成功转化
+api: request 成功转化
+api: getStorageSync 成功转化
+api: getStorageSync 成功转化
+api: request 成功转化
+api: getStorageSync 成功转化
+api: request 成功转化
+api: getStorageSync 成功转化
+api: request 成功转化
+api: chooseImage 成功转化
+api: previewImage 成功转化
+api: showModal 成功转化
+api: navigateBack 成功转化
+api: getStorageSync 成功转化
+api: uploadFile 成功转化
+api: showModal 成功转化
+api: navigateBack 成功转化
+api: getStorageSync 成功转化
+api: getStorageSync 成功转化
+api: request 成功转化
+api: showToast 成功转化
+api: showToast 成功转化
+api: getStorageSync 成功转化
+api: getStorageSync 成功转化
+api: request 成功转化
+api: setStorageSync 成功转化
+api: showToast 成功转化
+api: getStorageSync 成功转化
+api: getStorageSync 成功转化
+api: request 成功转化
+api: getStorageSync 成功转化
+api: showModal 成功转化
+api: navigateTo 成功转化
+api: navigateTo 成功转化
+api: getStorageSync 成功转化
+api: getStorageSync 成功转化
+api: request 成功转化
+api: setStorageSync 成功转化
+api: showToast 成功转化
+api: navigateTo 成功转化
+api: navigateTo 成功转化
+api: getStorageSync 成功转化
+api: getStorageSync 成功转化
+api: request 成功转化
+api: getStorageSync 成功转化
+api: request 成功转化
+api: navigateTo 成功转化
+api: navigateTo 成功转化
+api: previewImage 成功转化
+api: showModal 成功转化
+api: showToast 成功转化
+api: showToast 成功转化
+api: showToast 成功转化
+api: showLoading 成功转化
+api: navigateBack 成功转化
+api: getStorageSync 成功转化
+api: uploadFile 成功转化
+api: getStorageSync 成功转化
+api: getStorageSync 成功转化
+api: request 成功转化
+api: showToast 成功转化
+api: showToast 成功转化
+api: showToast 成功转化
+api: hideLoading 成功转化
+api: previewImage 成功转化
+api: chooseImage 成功转化
+api: showLoading 成功转化
+api: navigateBack 成功转化
+api: getSystemInfoSync 成功转化
+api: showToast 成功转化
+api: hideToast 成功转化
+api: chooseImage 成功转化
+api: getStorageSync 成功转化
+api: request 成功转化
+api: getStorageSync 成功转化
+api: request 成功转化
+api: getStorageSync 成功转化
+api: request 成功转化
+api: showToast 成功转化
+api: showToast 成功转化
+api: getStorageSync 成功转化
+api: request 成功转化
+api: showModal 成功转化
+api: request 成功转化
+api: setStorageSync 成功转化
+api: setStorageSync 成功转化
+api: showToast 成功转化
+api: navigateTo 成功转化
+api: showToast 成功转化
+api: showToast 成功转化
+api: login 成功转化
+api: request 成功转化
+api: showToast 成功转化
+api: setStorageSync 成功转化
+api: navigateTo 成功转化
+api: showToast 成功转化
+api: showToast 成功转化
+api: navigateTo 成功转化
+api: navigateTo 成功转化
+api: navigateTo 成功转化
+api: navigateTo 成功转化
+api: navigateTo 成功转化
+api: navigateTo 成功转化
+api: getStorageSync 成功转化
+api: getStorageSync 成功转化
+api: getStorageSync 成功转化
+api: request 成功转化
+api: chooseImage 成功转化
+api: previewImage 成功转化
+api: showModal 成功转化
+api: getStorageSync 成功转化
+api: getStorageSync 成功转化
+api: request 成功转化
+api: showToast 成功转化
+api: navigateBack 成功转化
+api: showToast 成功转化
+api: navigateTo 成功转化
+api: getStorageSync 成功转化
+api: login 成功转化
+api: request 成功转化
+api: request 成功转化
+api: getStorageSync 成功转化
+api: request 成功转化
+api: showToast 成功转化
+api: showToast 成功转化
+api: getStorageSync 成功转化
+api: request 成功转化
+api: showToast 成功转化
+api: navigateTo 成功转化
+api: showToast 成功转化
+api: request 成功转化
+api: showToast 成功转化
+api: showToast 成功转化
+api: getSystemInfoSync 成功转化
+api: createCanvasContext 成功转化
+api: createCanvasContext 成功转化
+api: getImageInfo 成功转化
+api: canvasToTempFilePath 字节跳动小程序暂不支持，仅更换前缀。请参考微信小程序文档完成适配：https://developers.weixin.qq.com/miniprogram/dev/api/canvas/wx.canvasToTempFilePath.html
+api: canvasGetImageData 字节跳动小程序暂不支持，仅更换前缀。请参考微信小程序文档完成适配：https://developers.weixin.qq.com/miniprogram/dev/api/canvas/wx.canvasGetImageData.html
+api: getSystemInfoSync 成功转化
+api: getImageInfo 成功转化
+api: canvasToTempFilePath 字节跳动小程序暂不支持，仅更换前缀。请参考微信小程序文档完成适配：https://developers.weixin.qq.com/miniprogram/dev/api/canvas/wx.canvasToTempFilePath.html
+api: canvasGetImageData 字节跳动小程序暂不支持，仅更换前缀。请参考微信小程序文档完成适配：https://developers.weixin.qq.com/miniprogram/dev/api/canvas/wx.canvasGetImageData.html
+api: createCanvasContext 成功转化
+api: createCanvasContext 成功转化
+api: request 成功转化
+api: request 成功转化
+api: request 成功转化
+🍻    Successfully transform js file
+🍻    Successfully transform wxml file
+🍻    Successfully transform wxss file
+🎊    Congratulations, transform done! Please check transform log in
+📝    /Users/chenzuoli/WeChatProjects/photography-bytedance/log.txt

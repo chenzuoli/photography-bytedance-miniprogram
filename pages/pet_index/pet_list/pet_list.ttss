@@ -1,0 +1,16 @@
+/* pages/pet_index/pet_list/pet_list.ttss */
+
+.btnAdd {
+  margin: 40px;
+  margin-left: 100px;
+  margin-right: 100px;
+  width: 130px;
+  font-size: 30rpx;
+}
+
+.pipilong {
+  width: 180px;
+  justify-content: center;
+  margin-left: 70px;
+  margin-right: 70px;
+}

@@ -1,0 +1,26 @@
+/* pages/photolist/photolist.ttss */
+page{
+  overflow: hidden;
+  background: #0D1740;
+}
+.scroll-box{
+  white-space: nowrap;
+  height: 105vh;
+}
+
+.card-box{
+  display: inline-block;
+}
+
+.card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  height: 80vh;
+  width: 80vw;
+  margin: 13vh 10vw;
+  font-size: 40px;
+  background: #F8F2DC;
+  border-radius: 4px;
+}

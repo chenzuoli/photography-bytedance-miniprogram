@@ -1,0 +1,34 @@
+<!-- register.wxml -->
+<cu-custom bgColor="bg-gradual-pink" isBack="{{true}}">
+  <view slot="backText">返回</view>
+  <view slot="content">注册</view>
+</cu-custom>
+<form bindsubmit="save">
+  <view class="cu-form-group margin-top">
+    <view class="title">手机号</view>
+    <input bindinput='bindPhoneInput' placeholder="请输入手机号" name='phone'></input>
+  </view>
+  <view class="cu-form-group margin-top">
+    <view class="title">密 码</view>
+    <input bindinput='bindPwdInput' placeholder="请输入密码" password="true" name='pwd'></input>
+  </view>
+  <view class="cu-form-group margin-top">
+    <button class="btnSubmit" form-type="submit">注 册</button>
+    <button class="login" bindtap='login'>登 录</button>
+  </view>
+  <view class="cu-form-group">
+    <button class="link_wx" open-type='getUserInfo' lang="zh_CN" bindgetuserinfo="onGotUserInfo">
+      微信账号注册
+    </button>
+  </view>
+</form>
+<!-- modal弹窗 -->
+<modalView show="{{showModal}}" bindcancel="modalCancel" title="{{title}}" bindconfirm='modalConfirm' single='{{single}}'>
+  <view class='modal-content'>
+    <scroll-view scroll-y class='main-content'>
+      <view>{{ service_content }}</view>
+      <br />
+      <view>{{ private_content }}</view>
+    </scroll-view>
+  </view>
+</modalView>

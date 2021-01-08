@@ -1,0 +1,19 @@
+<!--pages/verify_phone_number/verify_phone_number.ttml-->
+<cu-custom bgColor="bg-gradual-pink" isBack="{{true}}">
+  <view slot="backText">返回</view>
+  <view slot="content">验证手机号</view>
+</cu-custom>
+<view class="container">
+  <view class='row'>
+    <input placeholder='  请输入手机号' bindinput='bindPhoneInput' />
+  </view>
+  <view class='row'>
+    <input placeholder='  请输验证码' bindinput='bindCodeInput' style='width:70%;' />
+    <button class='codeBtn' bindtap='getCode' hidden='{{hidden}}' disabled='{{btnDisabled}}'>{{btnValue}}</button>
+  </view>
+  <view>
+    <button class='save' bindtap='save'>验证手机号</button>
+    <button class='link_wx' open-type="getPhoneNumber" bindgetphonenumber="getPhoneNumber">微信授权手机号</button>
+  </view>
+
+</view>

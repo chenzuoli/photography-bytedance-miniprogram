@@ -1,0 +1,14 @@
+<view class='modal-mask' tt:if='{{show}}' bindtap='clickMask'>
+  <view class='modal-content'>
+    <view class='modal-header'>
+      <view class='title'>{{ title }}</view>
+    </view>
+    <scroll-view scroll-y class='main-content'>
+      <slot></slot>
+    </scroll-view>
+    <view class='modal-footer'>
+      <view tt:if='{{!single}}' class='cancel-btn' bindtap='cancel'>取消</view>
+      <view class='confirm-btn' bindtap='confirm'>确定 </view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,53 @@
+<cu-custom bgColor="bg-gradual-pink" isBack="{{true}}">
+	<view slot="backText">返回</view>
+	<view slot="content">宠物信息</view>
+</cu-custom>
+<scroll-view scroll-y="{{modalName==null}}" class="page {{modalName!=null?'show':''}}">
+	<view class="cu-list menu {{menuBorder?'sm-border':''}} {{menuCard?'card-menu margin-top':''}}">
+		<form bindsubmit="submit">
+			<view class="cu-form-group margin-top">
+				<view class="title">更换头像</view>
+				<view name='avatar' class="cu-avatar radius bg-gray">
+					<image style="width:25px;height:25px" bindtap='ChooseImage' src="{{avatar}}" />
+				</view>
+			</view>
+			<view class="cu-form-group margin-top">
+				<view class="title">宠物昵称</view>
+				<input placeholder="{{pet.nick_name}}" name='nick_name'></input>
+			</view>
+			<view class="cu-form-group">
+				<view class="title">宠物类型、品种</view>
+				<picker name='type_variety' mode="multiSelector" bindchange="MultiChange" bindcolumnchange="MultiColumnChange" value="{{multiIndex}}" range="{{multiArray}}">
+					<view class="picker">
+						{{multiArray[0][multiIndex[0]]}}，{{multiArray[1][multiIndex[1]]}}
+					</view>
+				</picker>
+			</view>
+			<view class="cu-form-group">
+				<view class="title">宠物性别</view>
+				<switch name='gender' class="switch-sex" checked="{{pet.gender}}"></switch>
+			</view>
+			<view class="cu-form-group">
+				<view class="title">宠物出生日期</view>
+				<picker name='birthday' mode="date" value="{{date}}" start="1980-09-01" end="{{now}}" bindchange="DateChange">
+					<view class="picker">{{date}}</view>
+				</picker>
+			</view>
+			<view class="cu-form-group">
+				<view class="title">联系人手机号</view>
+				<input placeholder="{{pet.contact}}" name='contact'></input>
+				<view class="cu-capsule radius">
+					<view class="cu-tag bg-blue">+86</view>
+					<view class="cu-tag line-blue">中国大陆</view>
+				</view>
+			</view>
+			<view class="cu-form-group margin-top">
+				<view class="title">描述</view>
+				<input placeholder="{{pet.description}}" name='description'></input>
+			</view>
+			<view class="cu-form-group">
+				<button class="btnSubmit" form-type="submit">更 改</button>
+			</view>
+		</form>
+	</view>
+</scroll-view>

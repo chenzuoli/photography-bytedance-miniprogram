@@ -1,0 +1,5 @@
+/* pages/index/index.ttss */
+
+.size {
+    font-size: 30rpx;
+}

@@ -1,0 +1,26 @@
+<!--pages/photographer/photographer.ttml-->
+
+<scroll-view scroll-y="{{modalName==null}}" class="page {{modalName!=null?'show':''}}">
+	<!-- <cu-custom bgColor="bg-gradual-pink" isBack="{{false}}">
+		<view slot="backText">返回</view>
+		<view slot="content">我是摄影师</view>
+	</cu-custom> -->
+
+	<view class="blank" tt:if="{{isShow}}">
+		<view>列表为空，看看其他的吧</view>
+	</view>
+	<view tt:if="{{!isShow}}">
+		<view class="card">
+			<view tt:for="{{photographies}}" tt:key data-key='{{index}}'>
+				<view bindtap="onItemClick">
+					<view class="{{index===0?'subject_first':'subject_follow'}}">{{item.subject}}</view>
+					<image class="image" mode="aspectFill" src="{{item.url}}">
+						<text class="nick_name">{{item.nick_name}}</text>
+					</image>
+				</view>
+			</view>
+		</view>
+	</view>
+	<image class='add' src='/images/icon/add-outline.svg' bindtap='add'></image>
+	<view class="cu-tabbar-height"></view>
+</scroll-view>

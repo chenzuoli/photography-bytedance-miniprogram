@@ -1,0 +1,7 @@
+/* pages/userInfo/userInfo.ttss */
+
+button {
+  width: 70%;
+  background-color: rgb(55, 129, 52);
+  font-size: 30rpx;
+}

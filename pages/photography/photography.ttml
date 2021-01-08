@@ -1,0 +1,13 @@
+<!--pages/photography/photography.ttml-->
+<view>
+	<view class='avatar'>
+		<image mode='scaleToFill' src="{{avatar}}" bindtap='chooseimg'></image>
+	</view>
+	<view tt:if="{{showWeCropper}}">
+		<import src='../wecropper/we-cropper.ttml' />
+		<view class="cropperbg">
+			<template is="we-cropper" data="{{...cropperOpt}}" />
+			<view class="employ" bindtap="getCropperImage">使用</view>
+		</view>
+	</view>
+</view>
