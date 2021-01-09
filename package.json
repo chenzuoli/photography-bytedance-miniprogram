@@ -7,14 +7,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chenzuoli/photography.git"
+    "url": "git+https://github.com/chenzuoli/photography-bytedance-miniprogram.git"
   },
   "author": "chenzuoli",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/chenzuoli/photography/issues"
+    "url": "https://github.com/chenzuoli/photography-bytedance-miniprogram/issues"
   },
-  "homepage": "https://github.com/chenzuoli/photography#readme",
+  "homepage": "https://github.com/chenzuoli/photography-bytedance-miniprogram#readme",
   "directories": {
     "lib": "lib"
   },

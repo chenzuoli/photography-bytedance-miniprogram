@@ -1,7 +1,7 @@
 //app.js
 const api = require('./api/api.js');
 
-var login_url = 'https://localhost:7449/photography/tt_open_id';
+var login_url = 'https://pipilong.pet:7449/photography/tt_open_id';
 
 function promisify(api) {
   return (opt, ...arg) => {

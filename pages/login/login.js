@@ -1,5 +1,5 @@
 // pages/login/login.js
-var wx_login_url = "https://pipilong.pet:7449/photography/wx_login";
+var tt_login_url = "https://pipilong.pet:7449/photography/tt_login";
 var login_url = 'https://pipilong.pet:7449/photography/login';
 const app = getApp();
 Page({
@@ -23,7 +23,75 @@ Page({
     });
     console.log("login data: " + JSON.stringify(that.data));
   },
+  tt_login: function(e) {
+    console.log("tt_login: " + JSON.stringify(e))
+    tt.login({
+      success(res) {
+        console.log("登录头条账号："+JSON.stringify(res))
+        code = res.code
+        tt.getUserInfo({
+          success(res) {
+            console.log(`getUserInfo 调用成功 ${JSON.stringify(res.userInfo)}`);
+            console.log(`getUserInfo 调用成功 ${JSON.stringify(res.rawData)}`);
+            // store the login token
+            tt.request({
+              url: tt_login_url,
+              data: {
+                js_code: code,
+                rawData: res.rawData
+              },
+              header: {
+                "Content-Type": "application/x-www-form-urlencoded"
+              },
+              method: 'get',
+              //定义传到后台接受的是post方法还是get方法
+              success(res) {
+                console.log("login response: " + JSON.stringify(res.data))
+                if (res.data.status == 200) {
+                  tt.showToast({
+                    title: '登录成功',
+                    icon: "success",
+                    duration: 1000
+                  });
+                  tt.setStorageSync("token", res.data.data.token);
+                  tt.navigateBack({
+                    delta: 1,
+                    complete: res => {}
+                  }); 
+                } else {
+                  tt.showToast({
+                    title: '登录失败', // 内容
+                    icon: "success",
+                    duration: 1000
+                  });
+                }
+              },
+              fail(err) {
+                tt.showToast({
+                  title: '登录失败',
+                  icon: "warn",
+                  duration: 1000
+                });
+              }
+            });
+          },
+          fail(res) {
+            console.log(`getUserInfo 调用失败`);
+          }
+        });
+        
+      },
+      fail(err) {
+        tt.showToast({
+          title: '登录失败',
+          icon: "warn",
+          duration: 1000
+        });
+      }
+    });
+  },
   onGotUserInfo: function (e) {
+    console.log(e)
     var that = this;
     that.setData({
       rawData: e.detail.rawData,
@@ -33,7 +101,7 @@ Page({
       success(res) {
         console.log("登录头条账号："+res)
         tt.request({
-          url: wx_login_url,
+          url: tt_login_url,
           data: {
             js_code: res.code,
             rawData: that.data.rawData
@@ -42,7 +110,6 @@ Page({
             "Content-Type": "application/x-www-form-urlencoded"
           },
           method: 'get',
-
           //定义传到后台接受的是post方法还是get方法
           success(res) {
             tt.showToast({

@@ -16,9 +16,12 @@
     <button class="btnSubmit" form-type="submit">登 录</button>
     <button class="register" bindtap='register'>注 册</button>
   </view>
-  <view class="cu-form-group">
+  <!-- <view class="cu-form-group">
     <button class="link_tt" open-type='getUserInfo' lang="zh_CN" bindgetuserinfo="onGotUserInfo">
       头条账号登录
     </button>
+  </view> -->
+  <view class="cu-form-group">
+    <button class="link_tt" bindtap="tt_login">头条账号登录</button>
   </view>
 </form>
